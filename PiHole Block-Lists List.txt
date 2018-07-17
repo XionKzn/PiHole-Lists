@@ -37,4 +37,4 @@
 * https://github.com/XionKzn/PiHole-Lists/blob/master/Blocklist.txt
 * https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_HOSTS_Spyware.txt
 * https://hosts-file.net/download/HOSTS-Optimized.txt 	
-*	https://hosts-file.net/hphosts-partial.txt
+* https://hosts-file.net/hphosts-partial.txt
