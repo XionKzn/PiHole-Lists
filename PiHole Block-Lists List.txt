@@ -22,17 +22,19 @@
 * https://v.firebog.net/hosts/Easyprivacy.txt
 
 
-* https://hosts-file.net/emd.txt 	
-* https://hosts-file.net/fsa.txt 	
-* https://hosts-file.net/hjk.txt 	
-* https://hosts-file.net/mmt.txt 	
-* https://hosts-file.net/pha.txt 	
-* https://easylist.to/easylist/easylist.txt 	
-* https://easylist.to/easylist/easyprivacy.txt 	
-* https://easylist.to/easylist/fanboy-annoyance.txt 	
-* https://easylist.to/easylist/fanboy-social.txt 	
+* https://hosts-file.net/emd.txt
+* https://hosts-file.net/fsa.txt
+* https://hosts-file.net/hjk.txt
+* https://hosts-file.net/mmt.txt
+* https://hosts-file.net/pha.txt
+* https://easylist.to/easylist/easylist.txt
+* https://easylist.to/easylist/easyprivacy.txt
+* https://easylist.to/easylist/fanboy-annoyance.txt
+* https://easylist.to/easylist/fanboy-social.txt
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
-* https://feodotracker.abuse.ch/blocklist/?download=domainblocklist 	
+* https://feodotracker.abuse.ch/blocklist/?download=domainblocklist
 * https://urlhaus.abuse.ch/downloads/text/
-* https://github.com/XionKzn/PiHole-Lists/blob/master/Blocklist.txt 	
+* https://github.com/XionKzn/PiHole-Lists/blob/master/Blocklist.txt
 * https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_HOSTS_Spyware.txt
+* https://hosts-file.net/download/HOSTS-Optimized.txt 	
+*	https://hosts-file.net/hphosts-partial.txt
