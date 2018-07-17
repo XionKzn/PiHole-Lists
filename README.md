@@ -1,8 +1,10 @@
 # PiHole-Lists
-PiHole Lists
+This is my personal PiHole Block/White-lists used to more easily update PiHole lists. Entries in the files are gathered randomly from multiple sources for my own personal use.
 
 # Find anudeepND at:
 https://github.com/anudeepND/whitelist
+
+
 
 # PiHole_HOSTS_Spyware.txt
 PiHole_HOSTS_Spyware.txt Is taken Directly from Windows Hosts File.
