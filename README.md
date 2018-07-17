@@ -20,3 +20,4 @@ https://github.com/anudeepND/whitelist
 
 ## PiHole_Commonly_Whitelisted_Domains.txt
 **PiHole_Commonly_Whitelisted_Domains.txt** Are taken directly from the PiHole forum and added into an easy to use list (run pihole -w to add).
+> example | ~$ pihole - w google.com facebook.com intel.com
