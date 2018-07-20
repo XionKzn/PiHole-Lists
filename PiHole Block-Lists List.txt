@@ -38,3 +38,5 @@
 * https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_HOSTS_Spyware.txt
 * https://hosts-file.net/download/HOSTS-Optimized.txt 	
 * https://hosts-file.net/hphosts-partial.txt
+* https://lists.malwarepatrol.net/cgi/getfile?receipt=f1532078689&product=32&list=mozilla_adblock
+
