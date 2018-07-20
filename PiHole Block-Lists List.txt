@@ -39,4 +39,13 @@
 * https://hosts-file.net/download/HOSTS-Optimized.txt 	
 * https://hosts-file.net/hphosts-partial.txt
 * https://lists.malwarepatrol.net/cgi/getfile?receipt=f1532078689&product=32&list=mozilla_adblock
+* https://ransomwaretracker.abuse.ch/downloads/LY_C2_DOMBL.txt
+* https://ransomwaretracker.abuse.ch/downloads/CW_C2_DOMBL.txt
+* https://ransomwaretracker.abuse.ch/downloads/TC_C2_DOMBL.txt
+* https://ransomwaretracker.abuse.ch/downloads/TL_C2_DOMBL.txt
+* http://www.networksec.org/grabbho/block.txt
+* https://v.firebog.net/hosts/static/SamsungSmart.txt
+
+
+
 
