@@ -45,7 +45,3 @@
 * https://ransomwaretracker.abuse.ch/downloads/TL_C2_DOMBL.txt
 * http://www.networksec.org/grabbho/block.txt
 * https://v.firebog.net/hosts/static/SamsungSmart.txt
-
-
-
-
