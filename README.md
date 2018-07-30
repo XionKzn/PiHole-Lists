@@ -7,6 +7,9 @@ https://pi-hole.net
 ## Find anudeepND at:
 https://github.com/anudeepND/whitelist
 
+## Block List Project:
+https://tspprs.com/index.php
+
 
 
 ## PiHole_HOSTS_Spyware.txt
