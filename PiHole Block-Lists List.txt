@@ -62,4 +62,3 @@ http://data.phishtank.com/data/online-valid.csv.gz
 https://github.com/AdguardTeam/AdguardFilters/blob/master/EnglishFilter/sections/adservers.txt
 https://github.com/AdguardTeam/AdguardFilters/blob/master/EnglishFilter/sections/antiadblock.txt
 https://github.com/AdguardTeam/AdguardFilters/blob/master/EnglishFilter/sections/general_url.txt
-https://hosts.ubuntu101.co.za/domains.list
