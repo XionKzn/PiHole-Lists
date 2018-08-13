@@ -1,0 +1,1 @@
+pihole -b --wild g01.msn.com g00.msn.com
