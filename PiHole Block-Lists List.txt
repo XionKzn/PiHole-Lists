@@ -52,3 +52,5 @@ https://tspprs.com/dl/scam
 https://tspprs.com/dl/spam
 https://tspprs.com/dl/torrent
 https://github.com/XionKzn/PiHole-Lists/blob/master/OpenDNS_Block_list.txt
+https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_Custom_Block_List_Office.txt
+https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_Custom_Block_List_Home.txt
