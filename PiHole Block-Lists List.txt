@@ -13,16 +13,8 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts
 https://v.firebog.net/hosts/Easyprivacy.txt
 
-https://hosts-file.net/exp.txt
-https://hosts-file.net/psh.txt
-https://hosts-file.net/emd.txt
-https://hosts-file.net/fsa.txt
-https://hosts-file.net/hjk.txt
-https://hosts-file.net/mmt.txt
-https://hosts-file.net/pha.txt
 https://feodotracker.abuse.ch/blocklist/?download=domainblocklist
-https://hosts-file.net/download/HOSTS-Optimized.txt 	
-https://hosts-file.net/hphosts-partial.txt
+https://hosts-file.net/download/HOSTS-Optimized.txt
 https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt
 https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/RW_URLBL.txt
@@ -32,9 +24,7 @@ https://ransomwaretracker.abuse.ch/downloads/TC_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/TL_C2_DOMBL.txt
 https://v.firebog.net/hosts/static/SamsungSmart.txt
 
-https://tspprs.com/dl/crypto
 https://tspprs.com/dl/drugs
-https://tspprs.com/dl/fraud
 https://tspprs.com/dl/phishing
 https://tspprs.com/dl/ransomware
 https://tspprs.com/dl/scam
