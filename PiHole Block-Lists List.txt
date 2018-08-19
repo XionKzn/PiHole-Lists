@@ -51,3 +51,4 @@ https://tspprs.com/dl/ransomware
 https://tspprs.com/dl/scam
 https://tspprs.com/dl/spam
 https://tspprs.com/dl/torrent
+https://github.com/XionKzn/PiHole-Lists/blob/master/OpenDNS_Block_list.txt
