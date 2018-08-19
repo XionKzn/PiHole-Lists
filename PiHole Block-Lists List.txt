@@ -27,8 +27,6 @@ https://hosts-file.net/fsa.txt
 https://hosts-file.net/hjk.txt
 https://hosts-file.net/mmt.txt
 https://hosts-file.net/pha.txt
-https://easylist.to/easylist/easylist.txt
-https://easylist.to/easylist/easyprivacy.txt
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
 https://feodotracker.abuse.ch/blocklist/?download=domainblocklist
 https://github.com/XionKzn/PiHole-Lists/blob/master/Blocklist.txt
@@ -44,9 +42,7 @@ https://v.firebog.net/hosts/static/SamsungSmart.txt
 https://tspprs.com/dl/crypto
 https://tspprs.com/dl/drugs
 https://tspprs.com/dl/fraud
-https://tspprs.com/dl/gambling
 https://tspprs.com/dl/phishing
-https://tspprs.com/dl/proxy
 https://tspprs.com/dl/ransomware
 https://tspprs.com/dl/scam
 https://tspprs.com/dl/spam
