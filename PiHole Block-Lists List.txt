@@ -38,12 +38,10 @@ https://github.com/XionKzn/PiHole-Lists/blob/master/Blocklist.txt
 https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_HOSTS_Spyware.txt
 https://hosts-file.net/download/HOSTS-Optimized.txt 	
 https://hosts-file.net/hphosts-partial.txt
-https://lists.malwarepatrol.net/cgi/getfile?receipt=f1532078689&product=32&list=mozilla_adblock
 https://ransomwaretracker.abuse.ch/downloads/LY_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/CW_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/TC_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/TL_C2_DOMBL.txt
-http://www.networksec.org/grabbho/block.txt
 https://v.firebog.net/hosts/static/SamsungSmart.txt
 https://isc.sans.edu/block.txt
 
@@ -57,9 +55,3 @@ https://tspprs.com/dl/ransomware
 https://tspprs.com/dl/scam
 https://tspprs.com/dl/spam
 https://tspprs.com/dl/torrent
-http://data.phishtank.com/data/online-valid.csv.gz
-
-https://github.com/AdguardTeam/AdguardFilters/blob/master/EnglishFilter/sections/adservers.txt
-https://github.com/AdguardTeam/AdguardFilters/blob/master/EnglishFilter/sections/antiadblock.txt
-https://github.com/AdguardTeam/AdguardFilters/blob/master/EnglishFilter/sections/general_url.txt
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=plain;showintro=0
