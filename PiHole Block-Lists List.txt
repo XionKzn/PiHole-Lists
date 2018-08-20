@@ -27,7 +27,6 @@ https://v.firebog.net/hosts/static/SamsungSmart.txt
 https://tspprs.com/dl/drugs
 https://tspprs.com/dl/phishing
 https://tspprs.com/dl/ransomware
-https://tspprs.com/dl/scam
 https://tspprs.com/dl/spam
 https://tspprs.com/dl/torrent
 
