@@ -24,7 +24,6 @@ https://ransomwaretracker.abuse.ch/downloads/TC_C2_DOMBL.txt
 https://ransomwaretracker.abuse.ch/downloads/TL_C2_DOMBL.txt
 https://v.firebog.net/hosts/static/SamsungSmart.txt
 
-https://tspprs.com/dl/drugs
 https://tspprs.com/dl/phishing
 https://tspprs.com/dl/ransomware
 https://tspprs.com/dl/spam
