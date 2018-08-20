@@ -8,7 +8,6 @@ https://hosts-file.net/ad_servers.txt
 
 https://github.com/StevenBlack/hosts/blob/master/extensions/fakenews/hosts
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
-https://zerodot1.github.io/CoinBlockerLists/list.txt
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts
 https://v.firebog.net/hosts/Easyprivacy.txt
