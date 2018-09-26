@@ -24,3 +24,11 @@
 *Google Public DNS
 8.8.8.8
 8.8.4.4
+
+*Quad9
+-Secure IPv4:
+9.9.9.9
+149.112.112.112
+-Secure IPv6:
+2620:fe::fe
+2620:fe::9
