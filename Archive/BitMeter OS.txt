@@ -1,0 +1,12 @@
+https://github.com/upperhill/bitmeteros-raspi
+
+
+*Install
+
+git clone https://github.com/upperhill/bitmeteros-raspi/
+cd bitmeteros-raspi/
+sudo ./install.sh
+
+
+*Access BitMeter Web Interface
+http://localhost:2605/index.html
