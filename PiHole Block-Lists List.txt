@@ -32,12 +32,6 @@ https://tspprs.com/dl/crypto
 https://tspprs.com/dl/scam
 https://tspprs.com/dl/abuse
 
-https://github.com/XionKzn/PiHole-Lists/blob/master/OpenDNS_Block_list.txt
-https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_Custom_Block_List_Office.txt
-https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_Custom_Block_List_Home.txt
-https://github.com/XionKzn/PiHole-Lists/blob/master/Blocklist.txt
-https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole_HOSTS_Spyware.txt
-
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/win10/spy.txt
 https://github.com/Perflyst/PiHoleBlocklist/blob/master/android-tracking.txt
 https://github.com/Perflyst/PiHoleBlocklist/blob/master/SmartTV.txt
