@@ -1,7 +1,0 @@
-https://github.com/anudeepND/whitelist
-
-
-git clone https://github.com/anudeepND/whitelist.git
-cd whitelist/scripts
-sudo chmod +x whitelist.sh
-sudo ./whitelist.sh
