@@ -1,0 +1,15 @@
+**Untested and unknown if this replaces the current whitelist or just appends the new entries
+
+Method 1:
+sudo -s
+
+curl -sS https://your.whitelist.txt >> /etc/pihole/whitelist.txt
+
+pihole -g
+
+
+
+Method 2:
+curl -sS https://your.whitelist.txt | sudo tee -a /etc/pihole/whitelist.txt
+
+pihole -g

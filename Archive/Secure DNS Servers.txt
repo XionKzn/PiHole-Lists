@@ -1,0 +1,34 @@
+*Norton ConnectSafe
+-Security
+199.85.126.10
+199.85.127.10
+-Security + Pornography
+199.85.126.20
+199.85.127.20
+-Security + Pornography + Other
+199.85.126.30
+199.85.127.30
+
+*OpenDNS
+208.67.222.222
+208.67.220.220
+
+*Comodo Secure DNS
+8.26.56.26
+8.20.247.20
+
+*CloudFlare
+1.1.1.1
+1.0.0.1
+
+*Google Public DNS
+8.8.8.8
+8.8.4.4
+
+*Quad9
+-Secure IPv4:
+9.9.9.9
+149.112.112.112
+-Secure IPv6:
+2620:fe::fe
+2620:fe::9
