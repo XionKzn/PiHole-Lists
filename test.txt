@@ -3,7 +3,7 @@
 # Generated on 2019-04-06 13:15:02 UTC                                   #
 #                                                                        #
 # For questions please refer to:                                         #
-# https://ransomwaretracker.abuse.ch/blocklist/                          #
+# 												                         #
 ##########################################################################
 testme.com
 test.testme.com
