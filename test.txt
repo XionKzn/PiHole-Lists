@@ -1,2 +1,2 @@
-test.com
-test.test.com
+testme.com
+test.testme.com
