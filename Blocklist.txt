@@ -516,3 +516,5 @@ boot.b5b9f3eba.net
 sex.pokerdrom.com
 fota5db.adups.com
 tdsjsext1.com
+fbwallcheck.api-alliance.com
+gwallcheck.api-alliance.com
