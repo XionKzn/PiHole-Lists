@@ -681,3 +681,5 @@ vanheim.ff.avast.com
 appsflyer.com
 pushwoosh.com
 com-iw.com
+liberation.fr
+eulerian.net
