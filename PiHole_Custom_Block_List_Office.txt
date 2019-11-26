@@ -12,7 +12,6 @@ api.game-mode.net
 service.game-mode.net
 hlog.hiido.com
 apps.loop.in
-ipm.game-mode.net
 router.silotis.us
 dht.libtorrent.org
 api.yesmovie.io
@@ -39,16 +38,12 @@ astat.bugly.qq.com
 global-max-1.opera-mini.net
 www.primevideo.com
 unblockall.org
-vidoza.net
 www1.mehlizmovies.com
 mehlizmovies.com
-putlockerr.is
 print-screen.us
 setting.rayjump.com
-service.game-mode.net
 x9.dnsseed.bitcoin.dashjr.org
 cdn.dstv.com
-service.game-mode.net
 config.hiido.com
 config-v2.astar.mobi
 static-v2.astar.mobi
@@ -95,7 +90,6 @@ detect.rayjump.com
 township-cdn.playrix.com
 msg.township-ios.playrix.com
 cdn.playrix.com
-msg.township-ios.playrix.com
 township-ios.playrix.com
 www.ign.com
 gamefaqs.gamespot.com
@@ -106,11 +100,9 @@ scpm.game-mode.net
 pps-log.op-mobile.opera.com
 ios.prod.ftl.netflix.com
 ios.nccp.netflix.com
-ios.prod.ftl.netflix.com
-pd1eu.badoocdn.com
 api1.appexnw.com
 dsp.snipermob.com
-gamea.clashofclans.com
-service.supercell.net
 dnsseed.bitcoin.dashjr.org
 pushno.com
+seed.bitcoin.jonasschnelli.ch
+vlwcmgb48.ecfwg.xyz
