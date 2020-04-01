@@ -221,7 +221,6 @@ www.coin-hive.com
 mqtt.c10r.facebook.com
 telegraph-ash.instagram.com
 white.ish.instagram.com
-yt3.ggpht.com
 adserver.snapads.com
 adserver.shadow.snapads.com
 beacons.gvt2.com
@@ -637,4 +636,5 @@ pgdlisboa.pt
 dcubedinteriors.co.za
 acelormittalsa.com
 ultradefrag.net
-
+qfxjyl.com
+careforunow.com
