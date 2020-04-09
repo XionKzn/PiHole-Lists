@@ -1,5 +1,5 @@
 # Capture of random NextDNS blocks#
-#list if full of duplicates that still needs to be removed#
+#list is full of duplicates that still needs to be removed#
 ssl.google-analytics.com
 app-measurement.com
 googleads.g.doubleclick.net
