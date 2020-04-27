@@ -680,3 +680,5 @@ api.appsee.com
 decide.mixpanel.com
 yqshp.com
 shimaseiki.se
+Swedenbank.org
+vesthimmerland.dk
