@@ -593,7 +593,6 @@ careforunow.com
 ipm-provider.ff.avast.com
 config.safedk.com
 cdn.taboola.com
-www.googletagmanager.com
 pagead2.googlesyndication.com
 manifest.localytics.com
 analytics.localytics.com
