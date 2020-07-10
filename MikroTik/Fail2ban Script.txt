@@ -1,0 +1,50 @@
+/system script
+add comment="Fail2ban for MikroTik RouterOs . By xiaoD 27705090@qq.com  https:\
+    //forum.mikrotik.com/viewtopic.php\?t=138455#" dont-require-permissions=\
+    no name=Fail2ban owner=admin policy=\
+    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="#\
+    \_This's a System Scheduler Script.\r\
+    \n# Fail2ban for MikroTik RouterOs . By xiaoD 27705090@qq.com\r\
+    \n\r\
+    \n# Define how many times login failed from same address will be ban.\r\
+    \n:local maxtried 10\r\
+    \n\r\
+    \n# Define the baned addresses timeout.[1d: one day,30m: 30 minutes]\r\
+    \n:local bantime 3d\r\
+    \n\r\
+    \n# Define the exception address will not be ban.\r\
+    \n:local exip 1.2.3.4\r\
+    \n\r\
+    \n# Begin Script.\r\
+    \n# Default rules check and build\r\
+    \n:if ([:len [/ip fi fi find comment=fail2ban]]=0) do={\r\
+    \n\t/ip fi fi add chain=input src-address-list=ban action=drop comment=fai\
+    l2ban\r\
+    \n}\r\
+    \n\r\
+    \n/log\r\
+    \n:foreach i in=[find message~\"login failure\" ] do={\r\
+    \n\t:local msg [get \$i message]\r\
+    \n\t:local theip [:pick \$msg ([:find \$msg \"from \"]+5) [:find \$msg \" \
+    via\"]]\r\
+    \n\t:if (\$theip != \$exip) do={\r\
+    \n\t\t:local timesban [:len [/ip fi addr find list=ban address=\$theip]]\r\
+    \n\t\t:if (\$timesban = 0) do={\r\
+    \n\t\t\t:local times [:len [/ip fi addr find list=loginfailure address=\$t\
+    heip]]\r\
+    \n\t\t\t:if (\$times = 0) do={\r\
+    \n\t\t\t\t/ip fi addr add list=loginfailure address=\$theip timeout=1m com\
+    ment=1\r\
+    \n\t\t\t} else={\r\
+    \n\t\t\t\t:local thecm [:tonum ([/ip fi addr get [find list=loginfailure a\
+    ddress=\$theip] comment] + 1)]\r\
+    \n\t\t\t\t:if (\$thecm > \$maxtried ) do={\r\
+    \n\t\t\t\t\t[/ip fi addr add list=ban timeout=\$bantime address=\$theip]\r\
+    \n\t\t\t\t} else={/ip fi addr set [find list=loginfailure address=\$theip]\
+    \_comment=\$thecm\r\
+    \n\t\t\t\t}\r\
+    \n\t\t\t}\r\
+    \n\t\t}\r\
+    \n\t}\r\
+    \n}\r\
+    \n# End Script."

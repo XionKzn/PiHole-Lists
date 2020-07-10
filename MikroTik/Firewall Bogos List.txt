@@ -1,0 +1,33 @@
+/ip firewall address-list
+add address=0.0.0.0/8 comment="Self-Identification [RFC 3330]" list=Bogons
+add address=10.0.0.0/8 comment="Private[RFC 1918] - CLASS A # Check if you nee\
+ d this subnet before enable it" list=Bogons
+add address=127.0.0.0/8 comment="Loopback [RFC 3330]" list=Bogons
+add address=169.254.0.0/16 comment="Link Local [RFC 3330]" list=Bogons
+add address=172.16.0.0/12 comment="Private[RFC 1918] - CLASS B # Check if you \
+ need this subnet before enable it" list=Bogons
+add address=192.0.2.0/24 comment="Reserved - IANA - TestNet1" list=Bogons
+add address=192.88.99.0/24 comment="6to4 Relay Anycast [RFC 3068]" list=\
+ Bogons
+add address=198.18.0.0/15 comment="NIDB Testing" list=Bogons
+add address=198.51.100.0/24 comment="Reserved - IANA - TestNet2" list=Bogons
+add address=203.0.113.0/24 comment="Reserved - IANA - TestNet3" list=Bogons
+add address=224.0.0.0/4 comment=\
+ "MC, Class D, IANA # Check if you need this subnet before enable it" \
+ list=Bogons
+/ip firewall filter
+add action=accept chain=forward comment="defconf: accept established,related" \
+    connection-state=established,related
+add action=drop chain=forward comment="defconf: drop invalid" \
+    connection-state=invalid
+add action=accept chain=input port=69 protocol=udp
+add action=accept chain=forward port=69 protocol=udp
+add action=drop chain=forward comment=\
+    "defconf:  drop all from WAN not DSTNATed" connection-nat-state=!dstnat \
+    connection-state=new in-interface=ether1
+add action=drop chain=forward comment="Drop to bogon list" dst-address-list=\
+ Bogons
+add action=accept chain=input protocol=icmp
+add action=accept chain=input connection-state=established
+add action=accept chain=input connection-state=related
+add action=drop chain=input in-interface=ether1
