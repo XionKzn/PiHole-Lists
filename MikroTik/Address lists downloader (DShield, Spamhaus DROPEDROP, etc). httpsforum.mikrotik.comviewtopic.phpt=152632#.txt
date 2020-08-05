@@ -1,0 +1,22 @@
+:delay 30
+ip firewall address-list
+:local update do={
+:do {
+:local data ([:tool fetch url=$url output=user as-value]->"data")
+remove [find list=blacklist comment=$description]
+:while ([:len $data]!=0) do={
+:if ([:pick $data 0 [:find $data "\n"]]~"^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}") do={
+:do {add list=blacklist address=([:pick $data 0 [:find $data $delimiter]].$cidr) comment=$description timeout=1d} on-error={}
+}
+:set data [:pick $data ([:find $data "\n"]+1) [:len $data]]
+}
+} on-error={:log warning "Address list <$description> update failed"}
+}
+$update url=http://feeds.dshield.org/block.txt description=DShield delimiter=("\t") cidr=/24
+$update url=http://www.spamhaus.org/drop/drop.txt description="Spamhaus DROP" delimiter=("\_")
+$update url=http://www.spamhaus.org/drop/edrop.txt description="Spamhaus EDROP" delimiter=("\_")
+$update url=http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt description="Bambenek High-Confidence C2" delimiter=("\2C")
+$update url=https://sslbl.abuse.ch/blacklist/sslipblacklist.txt description="Abuse.ch SSLBL" delimiter=("\r")
+$update url=http://malc0de.com/bl/IP_Blacklist.txt description="Malc0de" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/iblocklist_permananet_block.txt description="iblocklist_permananet_block" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Spybot.txt description="Spybot" delimiter=("\n")
