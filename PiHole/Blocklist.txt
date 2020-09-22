@@ -710,3 +710,12 @@ adanak.com
 www.sansoftims.com
 www.giveaway-club.com
 in.wzrkt.com
+reports.crashlytics.com
+ssl.google-analytics.com
+api.segment.io
+data.flurry.com
+s7.addthis.com
+analytics.ff.avast.com
+ieonline.microsoft.com
+app-measurement.com
+g.live.com
