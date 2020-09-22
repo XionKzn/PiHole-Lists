@@ -722,3 +722,5 @@ g.live.com
 nvidia.tt.omtrdc.net
 metric-api.newrelic.com
 consent.trustarc.com
+mobile-collector.newrelic.com
+settings.crashlytics.com
