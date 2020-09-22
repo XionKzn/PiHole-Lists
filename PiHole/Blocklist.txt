@@ -719,3 +719,6 @@ analytics.ff.avast.com
 ieonline.microsoft.com
 app-measurement.com
 g.live.com
+nvidia.tt.omtrdc.net
+metric-api.newrelic.com
+consent.trustarc.com
