@@ -724,3 +724,4 @@ metric-api.newrelic.com
 consent.trustarc.com
 mobile-collector.newrelic.com
 settings.crashlytics.com
+device-metrics-us.amazon.com
