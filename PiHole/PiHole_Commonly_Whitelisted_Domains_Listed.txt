@@ -488,3 +488,8 @@ pmd.cdn.turner.com
 i.cdn.turner.com
 s.cdn.turner.com
 amd.cdn.turner.com
+continuum.dds.microsoft.com
+vidtech.cbsinteractive.com
+pings.conviva.com
+zee.cws.conviva.com
+cws.conviva.com
