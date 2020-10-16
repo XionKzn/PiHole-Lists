@@ -1,5 +1,5 @@
 vox.co.za
-nextdns.io
+*.nextdns.io
 glasswire.com
 android.com
 nicehash.com
