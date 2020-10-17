@@ -1,4 +1,4 @@
-*.my.nextdns.io
+*.nextdns.io
 ekg.riotgames.com
 vox.co.za
 nextdns.io
