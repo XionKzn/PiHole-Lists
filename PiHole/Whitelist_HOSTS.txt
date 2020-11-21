@@ -1,3 +1,4 @@
+mobile.pipe.aria.microsoft.com
 api.nextdns.io
 my.nextdns.io
 ekg.riotgames.com
