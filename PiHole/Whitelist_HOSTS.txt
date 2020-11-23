@@ -1,3 +1,4 @@
+sdkconfig.ad.intl.xiaomi.com
 data.mistat.intl.xiaomi.com
 mobile.pipe.aria.microsoft.com
 api.nextdns.io
