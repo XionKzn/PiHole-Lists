@@ -363,3 +363,4 @@ cdn.dstv.com
 beacons.gvt2.com
 beacons.gcp.gvt2.com
 cs.dds.microsoft.com
+bitcoin.sipa.be
