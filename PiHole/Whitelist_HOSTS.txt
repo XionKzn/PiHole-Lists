@@ -366,3 +366,4 @@ cs.dds.microsoft.com
 bitcoin.sipa.be
 emea01.safelinks.protection.outlook.com
 dashjr.org
+bitcoin.sipa.be
