@@ -118,10 +118,10 @@ api2.batmobi.net
 mpc.cmcm.com
 dsp.batmobil.net
 strategy.lmobi.net
-helpcleanmasterlite1.ksmobile.com
+ksmobile.com
 bp.adkmob.com
 vanheim.ff.avast.com
-p-behacdn.ksmobile.net
+ksmobile.net
 feed.ff.avast.com
 ibbuioc
 utqffmxip
@@ -392,7 +392,6 @@ sweeps0998.canyoufind3.live
 pushrev.neptuneadspush.com
 rubick.gameanalytics.com
 api.gameanalytics.com
-ups.ksmobile.net
 cdn.liftoff.io
 impression-europe.liftoff.io
 sy-v1.presage.io
@@ -572,8 +571,6 @@ ff.avast.com
 flurry.com
 hasmobi.net
 ip-info.ff.avast.com
-ksmobile.com
-ksmobile.net
 lanta-net.ru
 netbynet.ru
 shepherd.ff.avast.com
