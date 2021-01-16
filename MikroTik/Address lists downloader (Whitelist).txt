@@ -1,0 +1,15 @@
+{:delay 10}
+ip firewall address-list
+:local update do={
+:do {
+:local data ([:tool fetch url=$url output=user as-value]->"data")
+remove [find list=whitelist comment=$description]
+:while ([:len $data]!=0) do={
+:if ([:pick $data 0 [:find $data "\n"]]~"^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}") do={
+:do {add list=whitelist address=([:pick $data 0 [:find $data $delimiter]].$cidr) comment=$description timeout=7d} on-error={}
+}
+:set data [:pick $data ([:find $data "\n"]+1) [:len $data]]
+}
+} on-error={:log warning "Address list <$description> update failed"}
+}
+$update url=http://feeds.dshield.org/block.txt description=DShield delimiter=("\t") cidr=/24
