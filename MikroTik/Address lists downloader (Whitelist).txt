@@ -12,4 +12,4 @@ remove [find list=whitelist comment=$description]
 }
 } on-error={:log warning "Address list <$description> update failed"}
 }
-$update url=https://github.com/XionKzn/PiHole-Lists/raw/master/MikroTik/ESET.txt description=ESET delimiter=("/n")
+$update url=https://github.com/XionKzn/PiHole-Lists/raw/master/MikroTik/ESET.txt description="ESET" delimiter=("/n")
