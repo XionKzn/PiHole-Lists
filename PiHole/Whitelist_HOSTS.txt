@@ -5,3 +5,4 @@ torrentday.com
 bitcoin.sipa.be
 dashjr.org
 bitcoin.sipa.be
+appcms.coolkit.cn
