@@ -6,3 +6,4 @@ bitcoin.sipa.be
 dashjr.org
 bitcoin.sipa.be
 appcms.coolkit.cn
+heartbeat.dm.origin.com
