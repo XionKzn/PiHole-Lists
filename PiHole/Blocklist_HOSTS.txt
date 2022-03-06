@@ -553,7 +553,6 @@ www.innsbruck-kuenstler.info
 eu.cssrvsync.com
 tracker5.naturalbid.com
 tracker11.naturalbid.com
-prod-tp.sumo.mozit.cloud
 pushimg.com
 us-nj-e19.rtbtradein.com
 us-nj-e6.rtbtradein.com
