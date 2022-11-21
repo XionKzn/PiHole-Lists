@@ -1,4 +1,3 @@
-localhost
 007guard.com
 008i.com
 008k.com
@@ -299,7 +298,7 @@ adservs.com
 adsextend.net
 adshttp.com
 adsniffer.com
-adsoncom
+adsonwww.com
 adspics.com
 adsrevenue.net
 adtrak.net
@@ -1005,7 +1004,7 @@ bighot18codec2008.com
 bighot18-codec2008.com
 bigmp3online.com
 bigtrafficnetwork.com
-bigcom
+bigwww.com
 bill.de
 bin.errorprotector.com
 bins.media-motor.net
@@ -2107,7 +2106,7 @@ easysearch4you.com
 easysearchingtips.com
 easysoftwaredownloads.com
 easyspyware.com
-easyinfo
+easywww.info
 eazel.com
 eba6y.it
 eba7y.it
@@ -2288,16 +2287,16 @@ ert0003.e76.163ns.com
 ert47.a1.wrs.mcboo.com
 ertikadeswiokinganfujas.com
 es.winantivirus.com
-es0-5zgmu7o20kt5d8yq.com
-es1-5zgmu7o20kt5d8yq.com
-es2-5zgmu7o20kt5d8yq.com
-es3-5zgmu7o20kt5d8yq.com
-es4-5zgmu7o20kt5d8yq.com
-es5-5zgmu7o20kt5d8yq.com
-es6-5zgmu7o20kt5d8yq.com
-es7-5zgmu7o20kt5d8yq.com
-es8-5zgmu7o20kt5d8yq.com
-es9-5zgmu7o20kt5d8yq.com
+es0-www.5zgmu7o20kt5d8yq.com
+es1-www.5zgmu7o20kt5d8yq.com
+es2-www.5zgmu7o20kt5d8yq.com
+es3-www.5zgmu7o20kt5d8yq.com
+es4-www.5zgmu7o20kt5d8yq.com
+es5-www.5zgmu7o20kt5d8yq.com
+es6-www.5zgmu7o20kt5d8yq.com
+es7-www.5zgmu7o20kt5d8yq.com
+es8-www.5zgmu7o20kt5d8yq.com
+es9-www.5zgmu7o20kt5d8yq.com
 esafetylist.com
 esafetypage.com
 esbay.it
@@ -2944,7 +2943,7 @@ gedichteoma.com
 gedichteonkel.com
 gedichte-server.com
 gedichteservice.com
-gedichte-de
+gedichte-www.de
 gehalt-berechnung.de
 gehaltsberater.de
 gehaltsrechner.de
@@ -3756,7 +3755,7 @@ jeweltotal.ru
 jexetxr.cn
 jezinxq.cn
 jfrns.in
-jhzjyj.bigcom
+jhzjyj.bigwww.com
 jifotidaj.cn
 jihgapac.cn
 jinkinyunhdefunkasderun.com
@@ -6225,7 +6224,6 @@ searchfar.ru
 searchfastnet.com
 searchfeed.com
 searchfinds.org
-# Start of entries inserted by Spybot - Search & Destroy
 searchfindsearch.com
 searchfoot.net
 searchforge.com
@@ -8316,6 +8314,8 @@ wvira.de
 wvvvw-quicktime.com.cn
 ww90.catchaglipse.com
 wwlax.com
+www.antiaid.com
+www.pcantispyware.com
 www1.beruijindegunhadesun.com
 www1.first-antivirmd.25u.com
 www1.saverpnsentinel.uni.me
@@ -8350,8 +8350,8 @@ www-spybot.net
 www-spybotcom.com
 www-spybot-info.com
 www-spywarebot.org
-w2211.net
-wadnet-plus.com
+wwww.2211.net
+wwww.adnet-plus.com
 www-win-mx.com
 wwwxtremesoftware-ltd.com
 wwwyahoo.downloadznow.net
@@ -8645,7 +8645,9 @@ zxcsolution.com
 zxlinks.com
 zxoqacar.cn
 zxsex2.info
-zyban-zocor-levitra.comtracking.opencandy.com.s3.amazonaws.com
+zyban-zocor-levitra.com
+0.0.0.0
+tracking.opencandy.com.s3.amazonaws.com
 media.opencandy.com
 cdn.opencandy.com
 tracking.opencandy.com
@@ -8681,4 +8683,4 @@ cdn.bisrv.com
 cdn.cdndp.com
 cdn.download.sweetpacks.com
 cdn.dpdownload.com
-cdn.visualbee.net-integration
+cdn.visualbee.net
