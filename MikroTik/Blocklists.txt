@@ -1,0 +1,43 @@
+{:delay 60}
+ip firewall address-list
+:local update do={
+:do {
+:local data ([:tool fetch url=$url output=user as-value]->"data")
+remove [find list=blacklist comment=$description]
+:while ([:len $data]!=0) do={
+:if ([:pick $data 0 [:find $data "\n"]]~"^[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}") do={
+:do {add list=blacklist address=([:pick $data 0 [:find $data $delimiter]].$cidr) comment=$description timeout=7d} on-error={}
+}
+:set data [:pick $data ([:find $data "\n"]+1) [:len $data]]
+}
+} on-error={:log warning "Address list <$description> update failed"}
+}
+$update url=http://feeds.dshield.org/block.txt description=DShield delimiter=("\t") cidr=/24
+{:delay 5}
+$update url=http://www.spamhaus.org/drop/drop.txt description="Spamhaus DROP" delimiter=("\_")
+{:delay 5}
+$update url=http://www.spamhaus.org/drop/edrop.txt description="Spamhaus EDROP" delimiter=("\_")
+{:delay 5}
+$update url=https://sslbl.abuse.ch/blacklist/sslipblacklist.txt description="Abuse.ch SSLBL" delimiter=("\r")
+{:delay 5}
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/iblocklist_permananet_block.txt description="iblocklist_permananet_block" delimiter=("\n")
+{:delay 5}
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Spybot.txt description="Spybot" delimiter=("\n")
+{:delay 5}
+$update url=https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt description="Feodo Recommended" delimiter=("\r")
+{:delay 5}
+$update url=https://rules.emergingthreats.net/blockrules/compromised-ips.txt description="Compromised" delimiter=("\n")
+{:delay 5}
+$update url=https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt description="emerging-Block-IPs" delimiter=("\n")
+{:delay 5}
+$update url=https://check.torproject.org/torbulkexitlist description="TOR" delimiter=("\n")
+{:delay 5}
+$update url=https://lists.blocklist.de/lists/all.txt description="Blocklist.DE" delimiter=("\n")
+{:delay 5}
+$update url=https://blacklist.3coresec.net/lists/all.txt description="3CORESec.All" delimiter=("\n")
+{:delay 5}
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/c2-ip.txt description="C2-IP" delimiter=("\n")
+{:delay 5}
+$update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/alienvault_reputation.ipset description="alienvault_reputation" delimiter=("\n")
+{:delay 5}
+$update url=https://cinsscore.com/list/ci-badguys.txt description="CINS-bad-guys" delimiter=("\n")
