@@ -50,6 +50,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/np/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ph/ipv4-aggregated.txt description="Philippines(PH)" delimiter=("\n")
 {:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ps/ipv4-aggregated.txt description="Palestine(PS)" delimiter=("\n")
+{:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/pk/ipv4-aggregated.txt description="Pakistan(PK)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ro/ipv4-aggregated.txt description="Romania(RO)" delimiter=("\n")
