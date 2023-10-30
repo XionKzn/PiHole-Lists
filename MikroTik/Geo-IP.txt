@@ -36,7 +36,7 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/in/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/id/ipv4-aggregated.txt description="Indonesia(ID)" delimiter=("\n")
 {:delay 2}
-$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/il/ipv4-aggregated.txt description="Israel (IL)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/il/ipv4-aggregated.txt description="Israel(IL)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ir/ipv4-aggregated.txt description="Iran(IR)" delimiter=("\n")
 {:delay 2}
