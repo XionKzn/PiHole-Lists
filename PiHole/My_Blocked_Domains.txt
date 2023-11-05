@@ -5,7 +5,7 @@ zerophone.cc
 pcwizard.net
 vertebromed.md
 twg2c2p.com
-onion
+.onion
 han.gl
 sysnod.duckdns.org
 wzrkt.com
