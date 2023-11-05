@@ -108,9 +108,6 @@ dispatcher.3g.qq.com
 qq.com
 outbrain.com
 taboola.com
-simsotfqki
-vuccmbxlbfela
-pkoctetlwjibano
 cdn.batmobi.net
 stat.dsp.batmobi.net
 adx.callback.batmobi.net
@@ -123,9 +120,6 @@ bp.adkmob.com
 vanheim.ff.avast.com
 ksmobile.net
 feed.ff.avast.com
-ibbuioc
-utqffmxip
-xfsmlfyshflpqjm
 cleaner.mobile.tools.avast.com
 ads.riversip.com
 graph.instagram.com
