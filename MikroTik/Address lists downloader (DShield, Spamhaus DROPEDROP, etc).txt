@@ -48,6 +48,8 @@ $update url=https://www.opendbl.net/lists/etknown.list description="EmergingThre
 {:delay 5}
 $update url=https://www.opendbl.net/lists/bruteforce.list description="BruteforceBlocker" delimiter=("\n")
 {:delay 5}
+#$update url=http://www.opendbl.net/lists/blocklistde-all.list description="Blocklist.de_All" delimiter=("\n")
+{:delay 5}
 $update url=https://www.opendbl.net/lists/sslblock.list description="SSLAbuseIPlist" delimiter=("\n")
 {:delay 5}
 $update url=https://www.opendbl.net/lists/talos.list description="CiscoTalos" delimiter=("\n")
