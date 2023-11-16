@@ -34,8 +34,6 @@ $update url=https://rules.emergingthreats.net/blockrules/compromised-ips.txt des
 {:delay 5}
 $update url=https://check.torproject.org/torbulkexitlist description="TOR" delimiter=("\n")
 {:delay 5}
-#$update url=https://www.openbl.org/lists/base.txt description="OpenBL" delimiter=("\n")
-{:delay 5}
 $update url=https://blacklist.3coresec.net/lists/all.txt description="3CORESec.All" delimiter=("\n")
 {:delay 5} 
 $update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset description="FireHOL Level2" delimiter=("\n")
@@ -44,19 +42,19 @@ $update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/al
 {:delay 5}
 $update url=https://cinsscore.com/list/ci-badguys.txt description="CINS-bad-guys" delimiter=("\n")
 {:delay 5}
-$update url=https://www.opendbl.net/lists/etknown.list description="EmergingThreats:KnownCompromisedHosts" delimiter=("\n")
+$update url=https://opendbl.net/lists/etknown.list description="EmergingThreats:KnownCompromisedHosts" delimiter=("\n")
 {:delay 5}
-$update url=https://www.opendbl.net/lists/bruteforce.list description="BruteforceBlocker" delimiter=("\n")
+$update url=https://opendbl.net/lists/bruteforce.list description="BruteforceBlocker" delimiter=("\n")
 {:delay 5}
-#$update url=http://www.opendbl.net/lists/blocklistde-all.list description="Blocklist.de_All" delimiter=("\n")
+#$update url=http://opendbl.net/lists/blocklistde-all.list description="Blocklist.de_All" delimiter=("\n")
 {:delay 5}
-$update url=https://www.opendbl.net/lists/sslblock.list description="SSLAbuseIPlist" delimiter=("\n")
+$update url=https://opendbl.net/lists/sslblock.list description="SSLAbuseIPlist" delimiter=("\n")
 {:delay 5}
-$update url=https://www.opendbl.net/lists/talos.list description="CiscoTalos" delimiter=("\n")
+$update url=https://opendbl.net/lists/talos.list description="CiscoTalos" delimiter=("\n")
 {:delay 5}
-$update url=https://www.opendbl.net/lists/dshield.list description="DShield_dbl" delimiter=("\n")
+$update url=https://opendbl.net/lists/dshield.list description="DShield_dbl" delimiter=("\n")
 {:delay 5}
-$update url=https://www.opendbl.net/lists/tor-exit.list description="TORExitNodes" delimiter=("\n")
+$update url=https://opendbl.net/lists/tor-exit.list description="TORExitNodes" delimiter=("\n")
 {:delay 5}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Firewalla-My_Blocked_IP_List.txt description="Firewalla-My_Blocked_IP_List" delimiter=("\n")
 {:delay 5}
