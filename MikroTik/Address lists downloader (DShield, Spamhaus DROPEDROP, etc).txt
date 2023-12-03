@@ -56,6 +56,8 @@ $update url=https://opendbl.net/lists/dshield.list description="DShield_dbl" del
 {:delay 5}
 $update url=https://opendbl.net/lists/tor-exit.list description="TORExitNodes" delimiter=("\n")
 {:delay 5}
-$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Firewalla-My_Blocked_IP_List.txt description="Firewalla-My_Blocked_IP_List" delimiter=("\n")
+$update
+url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Firewalla-My_Blocked_IP_List.txt description="Firewalla-My_Blocked_IP_List" delimiter=("\n")
 {:delay 5}
-$updated url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Firewalla_Active_Protect.txt description="Firewalla_Active_Protect" delimiter=("\n")
+$update
+url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Firewalla_Active_Protect.txt description="Firewalla_Active_Protect" delimiter=("\n")
