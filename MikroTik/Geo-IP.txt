@@ -12,9 +12,9 @@ remove [find list=CountryIPBlocks comment=$description]
 }
 } on-error={:log warning "Address list <$description> update failed"}
 }
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/af/ipv4-aggregated.txt description="Afghanistan(AF)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/af/ipv4-aggregated.txt description="Afghanistan(AF)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/dz/ipv4-aggregated.txt description="Algeria(DZ)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/dz/ipv4-aggregated.txt description="Algeria(DZ)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bd/ipv4-aggregated.txt description="Bangladesh(BD)" delimiter=("\n")
 {:delay 2}
@@ -60,9 +60,9 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ro/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ru/ipv4-aggregated.txt description="Russia(RU)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sa/ipv4-aggregated.txt description="Saudi_Arabia(SA)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sa/ipv4-aggregated.txt description="Saudi_Arabia(SA)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/rs/ipv4-aggregated.txt description="Serbia(RS)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/rs/ipv4-aggregated.txt description="Serbia(RS)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sd/ipv4-aggregated.txt description="Sudan(SD)" delimiter=("\n")
 {:delay 2}
