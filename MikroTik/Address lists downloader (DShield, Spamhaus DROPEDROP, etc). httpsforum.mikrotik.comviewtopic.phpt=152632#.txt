@@ -24,8 +24,6 @@ $update url=https://sslbl.abuse.ch/blacklist/sslipblacklist.txt description="Abu
 {:delay 5}
 $update url=http://malc0de.com/bl/IP_Blacklist.txt description="Malc0de" delimiter=("\n")
 {:delay 5}
-$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/iblocklist_permananet_block.txt description="iblocklist_permananet_block" delimiter=("\n")
-{:delay 5}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Spybot.txt description="Spybot" delimiter=("\n")
 {:delay 5}
 $update url=https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt description="Feodo Recommended" delimiter=("\r")
