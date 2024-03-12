@@ -1,3 +1,4 @@
+/ip firewall address-list remove [find where list="CountryIPBlocks"]
 {:delay 5}
 ip firewall address-list
 :local update do={
@@ -22,7 +23,7 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/br/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bi/ipv4-aggregated.txt description="Burundi(BI)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cn/ipv4-aggregated.txt description="China(CN)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cn/ipv4-aggregated.txt description="China(CN)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cg/ipv4-aggregated.txt description="Congo(CG)" delimiter=("\n")
 {:delay 2}
@@ -41,6 +42,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/il/i
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ir/ipv4-aggregated.txt description="Iran(IR)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/iq/ipv4-aggregated.txt description="Iraq(IQ)" delimiter=("\n")
+{:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kz/ipv4-aggregated.txt description="Kazakhstan(KZ)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/md/ipv4-aggregated.txt description="Moldova(MD)" delimiter=("\n")
 {:delay 2}
