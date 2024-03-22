@@ -1,4 +1,4 @@
-{:delay 10}
+{:delay 5}
 ip firewall address-list
 :local update do={
 :do {
@@ -13,53 +13,51 @@ remove [find list=blacklist comment=$description]
 } on-error={:log warning "Address list <$description> update failed"}
 }
 $update url=http://feeds.dshield.org/block.txt description="DShield" delimiter=("\t") cidr=/24
-{:delay 5}
+{:delay 2}
 $update url=http://www.spamhaus.org/drop/drop.txt description="Spamhaus DROP" delimiter=("\_")
-{:delay 5}
+{:delay 2}
 $update url=http://www.spamhaus.org/drop/edrop.txt description="Spamhaus EDROP" delimiter=("\_")
-{:delay 5}
+{:delay 2}
 $update url=https://sslbl.abuse.ch/blacklist/sslipblacklist.txt description="Abuse.ch SSLBL" delimiter=("\r")
-{:delay 5}
+{:delay 2}
 #$update url=http://malc0de.com/bl/IP_Blacklist.txt description="Malc0de" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Spybot.txt description="Spybot" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.txt description="Feodo Recommended" delimiter=("\r")
-{:delay 5}
+{:delay 2}
 $update url=https://feodotracker.abuse.ch/downloads/ipblocklist.txt description="Feodo IP Only" delimiter=("\r")
-{:delay 5}
+{:delay 2}
 $update url=https://rules.emergingthreats.net/blockrules/compromised-ips.txt description="Compromised" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://check.torproject.org/torbulkexitlist description="TOR" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://blacklist.3coresec.net/lists/all.txt description="3CORESec.All" delimiter=("\n")
-{:delay 5} 
+{:delay 2} 
 $update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset description="FireHOL Level2" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/alienvault_reputation.ipset description="alienvault_reputation" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://cinsscore.com/list/ci-badguys.txt description="CINS-bad-guys" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://opendbl.net/lists/etknown.list description="EmergingThreats:KnownCompromisedHosts" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://opendbl.net/lists/bruteforce.list description="BruteforceBlocker" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 #$update url=http://opendbl.net/lists/blocklistde-all.list description="Blocklist.de_All" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://opendbl.net/lists/sslblock.list description="SSLAbuseIPlist" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://opendbl.net/lists/talos.list description="CiscoTalos" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://opendbl.net/lists/dshield.list description="DShield_dbl" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://opendbl.net/lists/tor-exit.list description="TORExitNodes" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Firewalla-My_Blocked_IP_List.txt description="Firewalla-My_Blocked_IP_List" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Firewalla_Active_Protect.txt description="Firewalla_Active_Protect" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Blocked_IPs description="Blocked_IPs" delimiter=("\n")
-{:delay 5}
+{:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Additional_Blocked_IPs.txt description="Additional_Blocked_IPs" delimiter=("\n")
-{:delay 5}
-$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Blocked_IPs_IncomingAttacks.txt description="Blocked_IPs_IncomingAttacks" delimiter=("\n")
