@@ -14,9 +14,9 @@ remove [find list=blacklist comment=$description]
 }
 $update url=http://feeds.dshield.org/block.txt description="DShield" delimiter=("\t") cidr=/24
 {:delay 2}
-$update url=http://www.spamhaus.org/drop/drop.txt description="Spamhaus DROP" delimiter=("\_")
+$update url=https://www.spamhaus.org/drop/drop.txt description="Spamhaus DROP" delimiter=("\_")
 {:delay 2}
-$update url=http://www.spamhaus.org/drop/edrop.txt description="Spamhaus EDROP" delimiter=("\_")
+$update url=https://www.spamhaus.org/drop/edrop.txt description="Spamhaus EDROP" delimiter=("\_")
 {:delay 2}
 $update url=https://sslbl.abuse.ch/blacklist/sslipblacklist.txt description="Abuse.ch SSLBL" delimiter=("\r")
 {:delay 2}
