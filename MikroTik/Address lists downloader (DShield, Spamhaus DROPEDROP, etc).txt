@@ -61,3 +61,5 @@ $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroT
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Blocked_IPs description="Blocked_IPs" delimiter=("\n")
 {:delay 5}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Additional_Blocked_IPs.txt description="Additional_Blocked_IPs" delimiter=("\n")
+{:delay 5}
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Blocked_IPs_IncomingAttacks.txt description="Blocked_IPs_IncomingAttacks" delimiter=("\n")
