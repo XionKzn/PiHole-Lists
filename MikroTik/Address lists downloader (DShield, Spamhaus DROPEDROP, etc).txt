@@ -61,3 +61,4 @@ $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroT
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Blocked_IPs description="Blocked_IPs" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Additional_Blocked_IPs.txt description="Additional_Blocked_IPs" delimiter=("\n")
+#for low memory and MT hap lite, only use DShield, CiscoTalos, Spybot Search and Destroy, DShield_DL, Firewalla Active Protect. 
