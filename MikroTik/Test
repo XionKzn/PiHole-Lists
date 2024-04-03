@@ -1,0 +1,35 @@
+:local emailip
+:local spamip
+:local keepflag 0
+:foreach j in [/ip firewall address-list find list=email-log-FirewallaVPNBruteforce] do={
+  :set emailip [/ip firewall address-list get $j address]
+  :foreach i in [/ip firewall address-list find list=Firewalla_VPN_Brute_force] do={
+	:set spamip [/ip firewall address-list get $i address]
+	:if ($emailip=$spamip) do={:set keepflag 1}
+  }
+  :if ($keepflag=0) do={/ip firewall address-list remove $j} else= {:set keepflag 0}
+}
+:if ([:len [/ip firewall address-list find list=Firewalla_VPN_Brute_force]]>0) do={
+  :local bodymsg ""
+  :local emailflag 0
+  :log error "---------- IP's detected as VPN BRUTEFORCE attempts ----------"
+  :foreach i in [/ip firewall address-list find list=Firewalla_VPN_Brute_force] do={
+	:set spamip [/ip firewall address-list get $i address]
+	:log error $spamip
+  }
+  :foreach i in [/ip firewall address-list find list=Firewalla_VPN_Brute_force] do={
+	:set spamip [/ip firewall address-list get $i address]
+	:foreach j in [/ip firewall address-list find list=email-log-FirewallaVPNBruteforce] do={
+  	:set emailip [/ip firewall address-list get $j address]
+  	:if ($spamip=$emailip) do={:set emailflag 1}
+	}
+	:if ($emailflag=0) do={
+  	:set bodymsg ($bodymsg . $spamip . "\r\n")
+  	/ip firewall address-list add address=$spamip list=email-log-FirewallaVPNBruteforce
+	} else= {:set emailflag 0}
+  }
+  :if ([:len $bodymsg]>0) do={
+	/tool e-mail send to=none@none.no.ne subject="IP's detected as VPN BRUTEFORCE" body=$bodymsg
+	:set bodymsg ""
+  }
+}
