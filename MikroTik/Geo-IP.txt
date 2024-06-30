@@ -61,6 +61,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ng/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kp/ipv4-aggregated.txt description="North_Korea(KP)" delimiter=("\n")
 {:delay 2}
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/North_Korea description="North_Korea" delimiter=("\n")
+{:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/np/ipv4-aggregated.txt description="Nepal(NP)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ph/ipv4-aggregated.txt description="Philippines(PH)" delimiter=("\n")
