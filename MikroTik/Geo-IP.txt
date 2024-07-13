@@ -1,5 +1,5 @@
 /ip firewall address-list remove [find where list="CountryIPBlocks"]
-{:delay 5}
+{:delay 1}
 ip firewall address-list
 :local update do={
 :do {
