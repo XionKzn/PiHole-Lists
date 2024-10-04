@@ -110,4 +110,5 @@ chkdsk Y: /Scan
 chkdsk Y: /Offlinescanandfix
 chkdsk Z: /Scan
 chkdsk Z: /Offlinescanandfix
+defrag /AllVolumes /BootOptimize /Optimize
 pause
