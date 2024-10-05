@@ -65,3 +65,9 @@ start.apistatexperience.com
 dr22.biz
 snowsoftware.com
 asdafrica.com
+logs.av380.net
+geller-pa.googleapis.com
+logctrl.av380.net
+p2ps2.coolkit.cn
+p2ps3.coolkit.cn
+unagi-eu.amazon.com
