@@ -2,7 +2,6 @@
 www.google-analytics.com
 in1.clevertap-prod.com
 *.qq.com
-in1.clevertap-prod.com
 footprints-pa.googleapis.com
 logs.netflix.com
 device-api.urbanairship.com
@@ -21,7 +20,7 @@ insightful.io
 staffcop.com
 desktime.com
 activtrak.com
-terramind.co
+teramind.co
 pingcastle.com
 velociraptor.app
 nessus.org
@@ -32,7 +31,6 @@ telefon-de.com
 mail.ru
 flipboard.com
 omnatuor.com
-teramind.co
 notifier.rarlab.com
 trapgs.xyz
 auslogics.com
@@ -90,7 +88,6 @@ logctrl.av380.net
 p2ps2.coolkit.cn
 p2ps3.coolkit.cn
 unagi-eu.amazon.com
-in1.clevertap-prod.com
 in.appcenter.ms
 grs.platform.dbankcloud.ru
 grs.dbankcloud.eu
