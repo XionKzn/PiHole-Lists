@@ -1,5 +1,4 @@
-googletagmanager.com
-www.googletagmanager.com
+*.googletagmanager.com
 www.google-analytics.com
 in1.clevertap-prod.com
 *.qq.com
