@@ -1,3 +1,6 @@
+googletagmanager.com
+www.googletagmanager.com
+www.google-analytics.com
 insightful.io
 staffcop.com
 desktime.com
