@@ -96,3 +96,7 @@ grs.platform.dbankcloud.ru
 grs.dbankcloud.eu
 grs.dbankcloud.asia
 grs.dbankcloud.cn
+unagi-na.amazon.com
+pcvideoyd.titan.mgtv.com
+api.eu-west-1.aiv-delivery.net
+analytics.plex.tv
