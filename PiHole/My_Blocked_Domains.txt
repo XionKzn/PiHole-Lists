@@ -98,3 +98,7 @@ pcvideoyd.titan.mgtv.com
 api.eu-west-1.aiv-delivery.net
 analytics.plex.tv
 tiktok.net
+tiktok.com
+tiktokcdn.com
+tiktokv.com
+tiktokcdn-us.com
