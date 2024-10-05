@@ -71,3 +71,9 @@ logctrl.av380.net
 p2ps2.coolkit.cn
 p2ps3.coolkit.cn
 unagi-eu.amazon.com
+in1.clevertap-prod.com
+in.appcenter.ms
+grs.platform.dbankcloud.ru
+grs.dbankcloud.eu
+grs.dbankcloud.asia
+grs.dbankcloud.cn
