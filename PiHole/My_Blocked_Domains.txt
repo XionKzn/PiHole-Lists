@@ -2,7 +2,7 @@ googletagmanager.com
 www.googletagmanager.com
 www.google-analytics.com
 in1.clevertap-prod.com
-qq.com
+*.qq.com
 in1.clevertap-prod.com
 footprints-pa.googleapis.com
 logs.netflix.com
