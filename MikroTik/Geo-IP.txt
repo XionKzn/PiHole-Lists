@@ -39,7 +39,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cg/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cu/ipv4-aggregated.txt description="Cuba(CU)" delimiter=("\n")
 {:delay 2}
-$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cz/ipv4-aggregated.txt description="Czechia(CZ)" delimiter=("\n")
+# BOINC asteroidsathome.net requires Czechia(CZ)
+#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cz/ipv4-aggregated.txt description="Czechia(CZ)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cd/ipv4-aggregated.txt description="Democratic_Republic_of_the_Congo(CD)" delimiter=("\n")
 {:delay 2}
@@ -63,6 +64,7 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/iq/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kz/ipv4-aggregated.txt description="Kazakhstan(KZ)" delimiter=("\n")
 {:delay 2}
+# Some RaspberryPI packages hosted in Moldova(MD)
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/md/ipv4-aggregated.txt description="Moldova(MD)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ng/ipv4-aggregated.txt description="Nigeria(NG)" delimiter=("\n")
