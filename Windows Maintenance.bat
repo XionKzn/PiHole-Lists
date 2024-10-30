@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 04/10/2024
+@echo Updated on 30/10/2024
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
 @echo This tool also force updates the Group Policy (effective after restart).
@@ -20,8 +20,8 @@ Dism /Online /Cleanup-Image /StartComponentCleanup
 Dism /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 Dism /Online /Cleanup-Image /RestoreHealth
 winget upgrade --accept-package-agreements --accept-source-agreements --all
-@echo ::  Install Microsoft PC Manager
-winget install 9pm860492szd --accept-source-agreements --accept-package-agreements
+#@echo ::  Install Microsoft PC Manager
+#winget install 9pm860492szd --accept-source-agreements --accept-package-agreements
 @echo ::  Install MPEG-2 Video Extension
 winget install 9n95q1zzpmh4 --accept-source-agreements --accept-package-agreements
 @echo ::  Install HEVC Video Extensions
@@ -42,8 +42,8 @@ winget install 9pg2dk419drg --accept-source-agreements --accept-package-agreemen
 winget install 9nqpsl29bfff --accept-source-agreements --accept-package-agreements
 @echo ::  Install Windows Terminal
 winget install 9n0dx20hk701 --accept-source-agreements --accept-package-agreements
-@echo ::  Install Microsoft Copilot
-winget install 9nht9rb2f4hd --accept-source-agreements --accept-package-agreements
+#@echo ::  Install Microsoft Copilot
+#winget install 9nht9rb2f4hd --accept-source-agreements --accept-package-agreements
 @echo ::  Install Mozilla Firefox
 winget install 9nzvdkpmr9rd --accept-source-agreements --accept-package-agreements
 ipconfig /flushdns
