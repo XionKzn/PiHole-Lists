@@ -32,7 +32,7 @@ $update url=https://rules.emergingthreats.net/blockrules/compromised-ips.txt des
 {:delay 2}
 $update url=https://check.torproject.org/torbulkexitlist description="TOR" delimiter=("\n")
 {:delay 2}
-$update url=https://blacklist.3coresec.net/lists/all.txt description="3CORESec.All" delimiter=("\n")
+#$update url=https://blacklist.3coresec.net/lists/all.txt description="3CORESec.All" delimiter=("\n")
 {:delay 2} 
 $update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset description="FireHOL Level2" delimiter=("\n")
 {:delay 2}
@@ -65,4 +65,4 @@ $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroT
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/CISCO_TALOS_IOC_large-scale-brute-force-activity-targeting-vpns-ssh-services-with-commonly-used-login-credentials description="CISCO_TALOS_IOC" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt description="Threat_Intelligence_Feeds-TIF" delimiter=("\n")
-#for low memory and MT hap lite, only use DShield, CiscoTalos, Spybot Search and Destroy, DShield_DL, Firewalla Active Protect. 
+#for low memory and MikroTik hAP Lite, only use DShield, CiscoTalos, Spybot Search and Destroy, DShield_DL, Firewalla Active Protect. 
