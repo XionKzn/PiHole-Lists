@@ -13,43 +13,43 @@ remove [find list=CountryIPBlocks comment=$description]
 }
 } on-error={:log warning "Address list <$description> update failed"}
 }
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/af/ipv4-aggregated.txt description="Afghanistan(AF)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/af/ipv4-aggregated.txt description="Afghanistan(AF)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/dz/ipv4-aggregated.txt description="Algeria(DZ)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/dz/ipv4-aggregated.txt description="Algeria(DZ)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ao/ipv4-aggregated.txt description="Angola(AO)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ao/ipv4-aggregated.txt description="Angola(AO)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ar/ipv4-aggregated.txt description="Argentina(AR)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ar/ipv4-aggregated.txt description="Argentina(AR)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/am/ipv4-aggregated.txt description="Armenia(AM)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/am/ipv4-aggregated.txt description="Armenia(AM)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bd/ipv4-aggregated.txt description="Bangladesh(BD)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bd/ipv4-aggregated.txt description="Bangladesh(BD)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/by/ipv4-aggregated.txt description="Belarus(BY)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bo/ipv4-aggregated.txt description="Bolivia(BO)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bo/ipv4-aggregated.txt description="Bolivia(BO)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/br/ipv4-aggregated.txt description="Brazil(BR)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/br/ipv4-aggregated.txt description="Brazil(BR)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bi/ipv4-aggregated.txt description="Burundi(BI)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bi/ipv4-aggregated.txt description="Burundi(BI)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cn/ipv4-aggregated.txt description="China(CN)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cg/ipv4-aggregated.txt description="Congo(CG)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cg/ipv4-aggregated.txt description="Congo(CG)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cu/ipv4-aggregated.txt description="Cuba(CU)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cu/ipv4-aggregated.txt description="Cuba(CU)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cz/ipv4-aggregated.txt description="Czechia(CZ)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cz/ipv4-aggregated.txt description="Czechia(CZ)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cd/ipv4-aggregated.txt description="Democratic_Republic_of_the_Congo(CD)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cd/ipv4-aggregated.txt description="Democratic_Republic_of_the_Congo(CD)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/eg/ipv4-aggregated.txt description="Egypt(EG)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/eg/ipv4-aggregated.txt description="Egypt(EG)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ee/ipv4-aggregated.txt description="Estonia(EE)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/et/ipv4-aggregated.txt description="Ethiopia(ET)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/et/ipv4-aggregated.txt description="Ethiopia(ET)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/gh/ipv4-aggregated.txt description="Ghana(GH)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/gh/ipv4-aggregated.txt description="Ghana(GH)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/in/ipv4-aggregated.txt description="India(IN)" delimiter=("\n")
 {:delay 2}
@@ -61,7 +61,7 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ir/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/iq/ipv4-aggregated.txt description="Iraq(IQ)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kz/ipv4-aggregated.txt description="Kazakhstan(KZ)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kz/ipv4-aggregated.txt description="Kazakhstan(KZ)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/my/ipv4-aggregated.txt description="Malaysia(MY)" delimiter=("\n")
 {:delay 2}
@@ -73,13 +73,13 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kp/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/North_Korea description="North_Korea" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/np/ipv4-aggregated.txt description="Nepal(NP)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/np/ipv4-aggregated.txt description="Nepal(NP)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ph/ipv4-aggregated.txt description="Philippines(PH)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ps/ipv4-aggregated.txt description="Palestine(PS)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ps/ipv4-aggregated.txt description="Palestine(PS)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/pk/ipv4-aggregated.txt description="Pakistan(PK)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/pk/ipv4-aggregated.txt description="Pakistan(PK)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ro/ipv4-aggregated.txt description="Romania(RO)" delimiter=("\n")
 {:delay 2}
@@ -87,19 +87,19 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ru/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sa/ipv4-aggregated.txt description="Saudi_Arabia(SA)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/rs/ipv4-aggregated.txt description="Serbia(RS)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/rs/ipv4-aggregated.txt description="Serbia(RS)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sd/ipv4-aggregated.txt description="Sudan(SD)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sd/ipv4-aggregated.txt description="Sudan(SD)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sy/ipv4-aggregated.txt description="Syria(SY)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/sy/ipv4-aggregated.txt description="Syria(SY)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/th/ipv4-aggregated.txt description="Thailand(TH)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tr/ipv4-aggregated.txt description="Turkey(TR)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tr/ipv4-aggregated.txt description="Turkey(TR)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tw/ipv4-aggregated.txt description="Taiwan(TW)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tw/ipv4-aggregated.txt description="Taiwan(TW)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ug/ipv4-aggregated.txt description="Uganda(UG)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ug/ipv4-aggregated.txt description="Uganda(UG)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ua/ipv4-aggregated.txt description="Ukraine(UA)" delimiter=("\n")
 {:delay 2}
