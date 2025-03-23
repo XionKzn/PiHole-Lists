@@ -88,6 +88,7 @@ tiktok.net
 tiktokcdn-us.com
 tiktokcdn.com
 tiktokv.com
+tiktokrow-cdn.com
 trapgs.xyz
 trellix.com
 twg2c2p.com
@@ -151,6 +152,7 @@ www.tiktok.net
 www.tiktokcdn-us.com
 www.tiktokcdn.com
 www.tiktokv.com
+www.tiktokrow-cdn.com
 www.trapgs.xyz
 www.trellix.com
 www.twg2c2p.com
