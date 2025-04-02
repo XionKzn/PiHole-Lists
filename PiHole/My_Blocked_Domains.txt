@@ -13,7 +13,6 @@ bereal.fans
 berealapp.net
 bitchute.com
 brandwizer.co.in
-browser.events.data.microsoft.com
 cdn.polyfill.com
 chat-e2ee-mini.facebook.com
 cloudflare-ipfs.com
@@ -29,7 +28,6 @@ dit.whatsapp.net
 downloadoffice2010.org
 dr22.biz
 dutils.com
-eu-mobile.events.data.microsoft.com
 eu-office.events.data.microsoft.com
 flipboard.com
 footprints-pa.googleapis.com
@@ -54,8 +52,6 @@ logs.av380.net
 logs.netflix.com
 mail.ru
 mask.icloud.com
-mobile.events.data.microsoft.com
-mobile.pipe.aria.microsoft.com
 nessus.org
 notifier.rarlab.com
 omnatuor.com
@@ -99,6 +95,11 @@ velociraptor.app
 vertebromed.md
 vnote.info
 vnotepad.com
+wzrkt.com
+yandex.net
+yobit.net
+zerophone.cc
+support-helpers.com
 www.activtrak.com
 www.app-measurement.com
 www.asb-wohnstaette.de
@@ -165,8 +166,3 @@ www.wzrkt.com
 www.yandex.net
 www.yobit.net
 www.zerophone.cc
-wzrkt.com
-yandex.net
-yobit.net
-zerophone.cc
-support-helpers.com
