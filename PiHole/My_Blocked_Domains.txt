@@ -28,7 +28,6 @@ dit.whatsapp.net
 downloadoffice2010.org
 dr22.biz
 dutils.com
-eu-office.events.data.microsoft.com
 flipboard.com
 footprints-pa.googleapis.com
 fuwenkeji.cn
@@ -43,7 +42,6 @@ grs.dbankcloud.eu
 grs.platform.dbankcloud.ru
 han.gl
 hotmonaris.org
-in.appcenter.ms
 in1.clevertap-prod.com
 insightful.io
 lastpass.com
@@ -55,8 +53,6 @@ mask.icloud.com
 nessus.org
 notifier.rarlab.com
 omnatuor.com
-p2ps2.coolkit.cn
-p2ps3.coolkit.cn
 pcvideoyd.titan.mgtv.com
 pcwizard.net
 pingcastle.com
@@ -74,7 +70,6 @@ staffcop.com
 start.apistatexperience.com
 static.cdns.space
 sysnod.duckdns.org
-teams.events.data.microsoft.com
 telefon-de.com
 tenable.com
 teramind.co
@@ -88,8 +83,6 @@ tiktokrow-cdn.com
 trapgs.xyz
 trellix.com
 twg2c2p.com
-unagi-eu.amazon.com
-unagi-na.amazon.com
 utcp.cc
 velociraptor.app
 vertebromed.md
@@ -132,7 +125,6 @@ www.lastpass.com
 www.mail.ru
 www.nessus.org
 www.omnatuor.com
-www.p2ps2.coolkit.cn
 www.pcwizard.net
 www.pingcastle.com
 www.polyfill.io
