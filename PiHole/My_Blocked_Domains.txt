@@ -2,8 +2,6 @@
 
 .onion
 activtrak.com
-analytics.plex.tv
-api.eu-west-1.aiv-delivery.net
 app-measurement.com
 asb-wohnstaette.de
 asdafrica.com
@@ -14,7 +12,6 @@ berealapp.net
 bitchute.com
 brandwizer.co.in
 cdn.polyfill.com
-chat-e2ee-mini.facebook.com
 cloudflare-ipfs.com
 coin-hive-stratum-fcwcduvpjs.now.sh
 crabs.pro
@@ -24,7 +21,6 @@ desktime.com
 device-api.urbanairship.com
 dht.transmissionbt.com
 digitalxnetwork.com
-dit.whatsapp.net
 downloadoffice2010.org
 dr22.biz
 dutils.com
@@ -35,19 +31,11 @@ geller-pa.googleapis.com
 googleads.g.doubleclick.net
 googletagmanager.com
 goto.com
-graph.facebook.com
-grs.dbankcloud.asia
-grs.dbankcloud.cn
-grs.dbankcloud.eu
-grs.platform.dbankcloud.ru
 han.gl
 hotmonaris.org
 in1.clevertap-prod.com
 insightful.io
 lastpass.com
-logctrl.av380.net
-logs.av380.net
-logs.netflix.com
 mail.ru
 mask.icloud.com
 nessus.org
