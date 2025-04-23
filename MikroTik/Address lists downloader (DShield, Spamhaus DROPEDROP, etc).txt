@@ -62,7 +62,7 @@ $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroT
 {:delay 2}
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/Additional_Blocked_IPs.txt description="Additional_Blocked_IPs" delimiter=("\n")
 {:delay 2}
-$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/CISCO_TALOS_IOC_large-scale-brute-force-activity-targeting-vpns-ssh-services-with-commonly-used-login-credentials description="CISCO_TALOS_IOC" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/CISCO_TALOS_IOC.txt description="CISCO_TALOS_IOC" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt description="Threat_Intelligence_Feeds-TIF" delimiter=("\n")
 #for low memory and MikroTik hAP Lite, only use DShield, CiscoTalos, Spybot Search and Destroy, DShield_DL, Firewalla Active Protect. 
