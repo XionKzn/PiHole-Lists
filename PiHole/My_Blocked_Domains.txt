@@ -2,7 +2,6 @@
 
 .onion
 activtrak.com
-app-measurement.com
 asb-wohnstaette.de
 asdafrica.com
 auslogics.com
@@ -18,26 +17,19 @@ crabs.pro
 cws.conviva.com
 datelove.life
 desktime.com
-device-api.urbanairship.com
 dht.transmissionbt.com
 digitalxnetwork.com
 downloadoffice2010.org
 dr22.biz
 dutils.com
 flipboard.com
-footprints-pa.googleapis.com
 fuwenkeji.cn
-geller-pa.googleapis.com
-googleads.g.doubleclick.net
 googletagmanager.com
-goto.com
 han.gl
 hotmonaris.org
-in1.clevertap-prod.com
 insightful.io
 lastpass.com
 mail.ru
-mask.icloud.com
 nessus.org
 notifier.rarlab.com
 omnatuor.com
