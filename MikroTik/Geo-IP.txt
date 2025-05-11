@@ -69,6 +69,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/my/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/md/ipv4-aggregated.txt description="Moldova(MD)" delimiter=("\n")
 {:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/mm/ipv4-aggregated.txt description="Myanmar(MM)" delimiter=("\n")
+{:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ng/ipv4-aggregated.txt description="Nigeria(NG)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kp/ipv4-aggregated.txt description="North_Korea(KP)" delimiter=("\n")
