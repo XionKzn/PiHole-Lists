@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]
+"DirectoryCacheLifetime"=dword:00000000
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CSC\Parameters]
+"FormatDatabase"=dword:00000001
