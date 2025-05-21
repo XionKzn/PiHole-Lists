@@ -30,6 +30,8 @@ $update url=https://rules.emergingthreats.net/blockrules/compromised-ips.txt des
 {:delay 2}
 $update url=https://check.torproject.org/torbulkexitlist description="TOR" delimiter=("\n")
 {:delay 2}
+$update url=https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset description="FireHOL Level1" delimiter=("\n")
+{:delay 2}
 $update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset description="FireHOL Level2" delimiter=("\n")
 {:delay 2}
 $update url=https://cinsscore.com/list/ci-badguys.txt description="CINS-bad-guys" delimiter=("\n")
