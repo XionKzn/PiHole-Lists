@@ -36,7 +36,7 @@ $update url=https://check.torproject.org/torbulkexitlist description="TOR" delim
 {:delay 2} 
 $update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset description="FireHOL Level2" delimiter=("\n")
 {:delay 2}
-$update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/alienvault_reputation.ipset description="alienvault_reputation" delimiter=("\n")
+#$update url=https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/alienvault_reputation.ipset description="alienvault_reputation" delimiter=("\n")
 {:delay 2}
 $update url=https://cinsscore.com/list/ci-badguys.txt description="CINS-bad-guys" delimiter=("\n")
 {:delay 2}
