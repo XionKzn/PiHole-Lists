@@ -13,6 +13,19 @@ sc config wlidsvc start= demand
 sc config bits start= demand
 ipconfig /flushdns
 netsh winsock reset
+
+@echo off
+echo Cleaning system and user temp files...
+del /s /f /q %TEMP%\*.* >nul 2>&1
+rd /s /q %TEMP% >nul 2>&1
+md %TEMP%
+
+del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
+rd /s /q C:\Windows\Temp >nul 2>&1
+md C:\Windows\Temp
+
+echo Temporary files cleared!
+
 sfc /Scannow
 DISM.exe /Online /Cleanup-image /Scanhealth 
 Dism /Online /Cleanup-Image /RestoreHealth
@@ -110,5 +123,18 @@ chkdsk Y: /Scan
 chkdsk Y: /Offlinescanandfix
 chkdsk Z: /Scan
 chkdsk Z: /Offlinescanandfix
+
+@echo off
+echo Cleaning system and user temp files...
+del /s /f /q %TEMP%\*.* >nul 2>&1
+rd /s /q %TEMP% >nul 2>&1
+md %TEMP%
+
+del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
+rd /s /q C:\Windows\Temp >nul 2>&1
+md C:\Windows\Temp
+
+echo Temporary files cleared!
+
 defrag /AllVolumes /BootOptimize /Optimize
 pause
