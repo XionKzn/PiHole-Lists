@@ -31,6 +31,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/by/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bo/ipv4-aggregated.txt description="Bolivia(BO)" delimiter=("\n")
 {:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bw/ipv4-aggregated.txt description="Botswana(BW)" delimiter=("\n")
+{:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/br/ipv4-aggregated.txt description="Brazil(BR)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/bi/ipv4-aggregated.txt description="Burundi(BI)" delimiter=("\n")
@@ -81,6 +83,10 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/my/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/md/ipv4-aggregated.txt description="Moldova(MD)" delimiter=("\n")
 {:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/mn/ipv4-aggregated.txt description="Mongolia(MN)" delimiter=("\n")
+{:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/mz/ipv4-aggregated.txt description="Mozambique(MZ)" delimiter=("\n")
+{:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/mm/ipv4-aggregated.txt description="Myanmar(MM)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ng/ipv4-aggregated.txt description="Nigeria(NG)" delimiter=("\n")
@@ -90,6 +96,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/kp/i
 $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroTik/North_Korea description="North_Korea" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/np/ipv4-aggregated.txt description="Nepal(NP)" delimiter=("\n")
+{:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/om/ipv4-aggregated.txt description="Oman(OM)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ph/ipv4-aggregated.txt description="Philippines(PH)" delimiter=("\n")
 {:delay 2}
@@ -116,6 +124,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/th/i
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tr/ipv4-aggregated.txt description="Turkey(TR)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tm/ipv4-aggregated.txt description="Turkmenistan(TM)" delimiter=("\n")
+{:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tt/ipv4-aggregated.txt description="Trinidad_Tobago(TT)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/tw/ipv4-aggregated.txt description="Taiwan(TW)" delimiter=("\n")
 {:delay 2}
