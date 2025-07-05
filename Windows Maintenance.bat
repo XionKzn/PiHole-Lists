@@ -1,7 +1,8 @@
 @echo Compiled by XionKzn.
-@echo Updated on 30/10/2024
+@echo Updated on 05/07/2025
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
+@echo This tool also uses TRIM command for SSD's and cleans Windows temporary files.
 @echo This tool also force updates the Group Policy (effective after restart).
 @echo Please send an email with suggestions or complaints to lapped-chomp-timid@duck.com
 @echo Pleae run this tool as Administrator.
@@ -33,8 +34,6 @@ Dism /Online /Cleanup-Image /StartComponentCleanup
 Dism /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 Dism /Online /Cleanup-Image /RestoreHealth
 winget upgrade --accept-package-agreements --accept-source-agreements --all
-#@echo ::  Install Microsoft PC Manager
-#winget install 9pm860492szd --accept-source-agreements --accept-package-agreements
 @echo ::  Install MPEG-2 Video Extension
 winget install 9n95q1zzpmh4 --accept-source-agreements --accept-package-agreements
 @echo ::  Install HEVC Video Extensions
