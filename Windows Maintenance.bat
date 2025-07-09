@@ -54,6 +54,8 @@ winget install 9pg2dk419drg --accept-source-agreements --accept-package-agreemen
 winget install 9nqpsl29bfff --accept-source-agreements --accept-package-agreements
 @echo ::  Install Windows Terminal
 winget install 9n0dx20hk701 --accept-source-agreements --accept-package-agreements
+@echo ::  Install Bitwarden
+winget install 9pjsdv0vpk04 --accept-source-agreements --accept-package-agreements
 @echo ::  Install Mozilla Firefox
 winget install 9nzvdkpmr9rd --accept-source-agreements --accept-package-agreements
 ipconfig /flushdns
