@@ -45,7 +45,7 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cg/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cu/ipv4-aggregated.txt description="Cuba(CU)" delimiter=("\n")
 {:delay 2}
-$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cz/ipv4-aggregated.txt description="Czechia(CZ)" delimiter=("\n")
+#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cz/ipv4-aggregated.txt description="Czechia(CZ)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cd/ipv4-aggregated.txt description="Democratic_Republic_of_the_Congo(CD)" delimiter=("\n")
 {:delay 2}
@@ -149,5 +149,6 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ye/i
 {:delay 2}
 #SOURCES:
 #https://labcrasher.com/2022/02/10/geo-blocking-what-is-it-who-to-block-and-how/
+
 
 
