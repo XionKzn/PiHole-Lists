@@ -49,6 +49,8 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cu/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/cd/ipv4-aggregated.txt description="Democratic_Republic_of_the_Congo(CD)" delimiter=("\n")
 {:delay 2}
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ec/ipv4-aggregated.txt description="Ecuador(EC)" delimiter=("\n")
+{:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/eg/ipv4-aggregated.txt description="Egypt(EG)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ee/ipv4-aggregated.txt description="Estonia(EE)" delimiter=("\n")
@@ -63,7 +65,7 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/hk/i
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/in/ipv4-aggregated.txt description="India(IN)" delimiter=("\n")
 {:delay 2}
-#$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/id/ipv4-aggregated.txt description="Indonesia(ID)" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/id/ipv4-aggregated.txt description="Indonesia(ID)" delimiter=("\n")
 {:delay 2}
 $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/il/ipv4-aggregated.txt description="Israel(IL)" delimiter=("\n")
 {:delay 2}
@@ -149,6 +151,7 @@ $update url=https://raw.githubusercontent.com/ipverse/rir-ip/master/country/ye/i
 {:delay 2}
 #SOURCES:
 #https://labcrasher.com/2022/02/10/geo-blocking-what-is-it-who-to-block-and-how/
+
 
 
 
