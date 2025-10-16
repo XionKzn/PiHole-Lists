@@ -12,7 +12,7 @@ remove [find list=blacklist comment=$description]
 }
 } on-error={:log warning "Address list <$description> update failed"}
 }
-$update url=http://feeds.dshield.org/block.txt description="DShield" delimiter=("\t") cidr=/24
+$update url=https://feeds.dshield.org/block.txt description="DShield" delimiter=("\t") cidr=/24
 {:delay 2}
 $update url=https://www.spamhaus.org/drop/drop.txt description="Spamhaus DROP" delimiter=("\_")
 {:delay 2}
@@ -60,3 +60,4 @@ $update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/MikroT
 {:delay 2}
 $update url=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif.txt description="Threat_Intelligence_Feeds-TIF" delimiter=("\n")
 #for low memory and MikroTik hAP Lite, only use DShield, CiscoTalos, Spybot Search and Destroy, DShield_DL, Firewalla Active Protect. 
+
