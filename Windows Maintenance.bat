@@ -4,6 +4,7 @@
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
 @echo This tool also uses TRIM command for SSD's and cleans Windows temporary files.
 @echo This tool also force updates the Group Policy (effective after restart).
+@echo This tool also shows the status of Windows Memory Compression, and then enables it.
 @echo Please send an email with suggestions or complaints to lapped-chomp-timid@duck.com
 @echo Pleae run this tool as Administrator.
 @echo off
@@ -147,5 +148,6 @@ TIMEOUT /T 10
 Enable-MMAgent -mc
 
 pause
+
 
 
