@@ -15,6 +15,7 @@ sc config wlidsvc start= demand
 sc config bits start= demand
 ipconfig /flushdns
 netsh winsock reset
+netsh int tcp set global autotuninglevel=normal
 
 @echo off
 echo Cleaning system and user temp files...
@@ -148,6 +149,7 @@ TIMEOUT /T 10
 Enable-MMAgent -mc
 
 pause
+
 
 
 
