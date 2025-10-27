@@ -149,8 +149,3 @@ defrag /AllVolumes /BootOptimize /Optimize
 #Enable-MMAgent -mc
 
 pause
-
-
-
-
-
