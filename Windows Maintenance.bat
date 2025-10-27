@@ -141,11 +141,10 @@ echo Temporary files cleared!
 
 defrag /AllVolumes /BootOptimize /Optimize
 
-#@echo :: Checking status of Windows Memory Compression
-#Get-MMAgent
-#TIMEOUT /T 10
+@echo :: Checking status of Windows Memory Compression via PowerShell
+powershell -NoProfile -Command "Get-MMAgent"
 
-#@echo :: Enabling Memory Compression
-#Enable-MMAgent -mc
+@echo :: Enabling Memory Compression via PowerShell
+powershell -NoProfile -Command "Enable-MMAgent -mc"
 
 pause
