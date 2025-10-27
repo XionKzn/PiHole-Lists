@@ -150,6 +150,3 @@ powershell -NoProfile -Command "Get-MMAgent"
 powershell -NoProfile -Command "Enable-MMAgent -mc"
 
 pause
-
-
-
