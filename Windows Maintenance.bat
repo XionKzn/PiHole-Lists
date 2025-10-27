@@ -16,7 +16,7 @@ sc config wlidsvc start= demand
 sc config bits start= demand
 ipconfig /flushdns
 netsh winsock reset
-@echo Restoring Window Auto-Tuning feature to default (normal)
+@echo Restoring Windows Auto-Tuning feature to default (normal)
 netsh int tcp set global autotuninglevel=normal
 
 @echo off
@@ -150,3 +150,4 @@ powershell -NoProfile -Command "Get-MMAgent"
 powershell -NoProfile -Command "Enable-MMAgent -mc"
 
 pause
+
