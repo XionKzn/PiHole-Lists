@@ -6,7 +6,8 @@
 @echo This tool also force updates the Group Policy (effective after restart).
 @echo This tool also shows the status of Windows Memory Compression, and then enables it.
 @echo Please send an email with suggestions or complaints to lapped-chomp-timid@duck.com
-@echo Pleae run this tool as Administrator.
+@echo Please run this tool as Administrator.
+@echo Comment out any command you do not want to run.
 @echo off
 TIMEOUT /T 10
 sc config wuauserv start= demand
@@ -148,4 +149,5 @@ powershell -NoProfile -Command "Get-MMAgent"
 powershell -NoProfile -Command "Enable-MMAgent -mc"
 
 pause
+
 
