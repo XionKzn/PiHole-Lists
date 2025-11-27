@@ -1,5 +1,6 @@
 @echo Compiled by XionKzn.
-@echo Updated on 27/10/2025
+@echo Updated on 27/11/2025
+@echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
 @echo This tool also uses TRIM command for SSD's and cleans Windows temporary files.
@@ -149,5 +150,7 @@ powershell -NoProfile -Command "Get-MMAgent"
 @echo :: Enabling Memory Compression via PowerShell
 powershell -NoProfile -Command "Enable-MMAgent -mc"
 
-pause
+@echo :: Checking status of Windows Memory Compression via PowerShell
+powershell -NoProfile -Command "Get-MMAgent"
 
+pause
