@@ -7,6 +7,7 @@
 @echo This tool also force updates the Group Policy (effective after restart).
 @echo This tool also shows the status of Windows Memory Compression, and then enables it.
 @echo Please send an email with suggestions or complaints to lapped-chomp-timid@duck.com
+@echo For the latest version of this file: https://github.com/XionKzn/PiHole-Lists/Windows Maintenance.bat
 @echo Please run this tool as Administrator.
 @echo Comment out any command you do not want to run.
 @echo off
@@ -156,5 +157,6 @@ powershell -NoProfile -Command "Enable-MMAgent -mc"
 powershell -NoProfile -Command "Get-MMAgent"
 
 pause
+
 
 
