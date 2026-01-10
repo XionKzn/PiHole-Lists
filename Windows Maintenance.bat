@@ -61,6 +61,8 @@ winget install 9nqpsl29bfff --accept-source-agreements --accept-package-agreemen
 winget install 9n0dx20hk701 --accept-source-agreements --accept-package-agreements
 @echo ::  Install Microsoft Defender
 winget install 9p6pmztm93lr --accept-source-agreements --accept-package-agreements
+@echo ::  Install Microsoft PC Manager
+winget install 9pm860492szd --accept-source-agreements --accept-package-agreements
 @echo ::  Install Bitwarden
 winget install 9pjsdv0vpk04 --accept-source-agreements --accept-package-agreements
 @echo ::  Install Mozilla Firefox
@@ -154,3 +156,4 @@ powershell -NoProfile -Command "Enable-MMAgent -mc"
 powershell -NoProfile -Command "Get-MMAgent"
 
 pause
+
