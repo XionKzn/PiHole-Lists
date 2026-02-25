@@ -156,7 +156,8 @@ powershell -NoProfile -Command "Enable-MMAgent -mc"
 @echo :: Checking status of Windows Memory Compression via PowerShell
 powershell -NoProfile -Command "Get-MMAgent"
 
+ipconfig /flushdns
+netsh winsock reset
+netsh int ip reset
+
 pause
-
-
-
