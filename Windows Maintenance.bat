@@ -68,6 +68,8 @@ winget install 9pm860492szd --accept-source-agreements --accept-package-agreemen
 winget install 9pjsdv0vpk04 --accept-source-agreements --accept-package-agreements
 @echo ::  Install Mozilla Firefox
 winget install 9nzvdkpmr9rd --accept-source-agreements --accept-package-agreements
+@echo :: Update DirectX
+winget upgrade --id Microsoft.DirectX
 ipconfig /flushdns
 netsh winsock reset
 sfc /Scannow
@@ -161,3 +163,4 @@ netsh winsock reset
 netsh int ip reset
 
 pause
+
