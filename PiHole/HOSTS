@@ -15754,4 +15754,5 @@
 0.0.0.0 cdn.download.sweetpacks.com
 0.0.0.0 cdn.dpdownload.com
 0.0.0.0 cdn.visualbee.net
-0.0.0.0 sentinelone.net
+
+0.0.0.0 0.0.0.0 # fix for traceroute and netstat display anomaly
