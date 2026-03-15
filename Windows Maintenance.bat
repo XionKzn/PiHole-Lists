@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 27/11/2025
+@echo Updated on 13/03/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
@@ -60,16 +60,16 @@ winget install 9pg2dk419drg --accept-source-agreements --accept-package-agreemen
 winget install 9nqpsl29bfff --accept-source-agreements --accept-package-agreements
 @echo ::  Install Windows Terminal
 winget install 9n0dx20hk701 --accept-source-agreements --accept-package-agreements
-@echo ::  Install Microsoft Defender
-winget install 9p6pmztm93lr --accept-source-agreements --accept-package-agreements
-@echo ::  Install Microsoft PC Manager
-winget install 9pm860492szd --accept-source-agreements --accept-package-agreements
+#@echo ::  Install Microsoft Defender
+#winget install 9p6pmztm93lr --accept-source-agreements --accept-package-agreements
+#@echo ::  Install Microsoft PC Manager
+#winget install 9pm860492szd --accept-source-agreements --accept-package-agreements
 @echo ::  Install Bitwarden
 winget install 9pjsdv0vpk04 --accept-source-agreements --accept-package-agreements
 @echo ::  Install Mozilla Firefox
 winget install 9nzvdkpmr9rd --accept-source-agreements --accept-package-agreements
-@echo :: Update DirectX
-winget upgrade --id Microsoft.DirectX
+@echo :: Update DirectX via PowerShell
+powershell -NoProfile -Command "winget upgrade --id Microsoft.DirectX"
 ipconfig /flushdns
 netsh winsock reset
 sfc /Scannow
@@ -163,4 +163,3 @@ netsh winsock reset
 netsh int ip reset
 
 pause
-
