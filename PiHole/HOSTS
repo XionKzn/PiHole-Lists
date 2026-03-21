@@ -15756,3 +15756,5 @@
 0.0.0.0 cdn.visualbee.net
 
 0.0.0.0 0.0.0.0 # fix for traceroute and netstat display anomaly
+
+0.0.0.0 sn.aomeisoftware.com
