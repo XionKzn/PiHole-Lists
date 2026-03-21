@@ -15758,3 +15758,5 @@
 0.0.0.0 0.0.0.0 # fix for traceroute and netstat display anomaly
 
 0.0.0.0 sn.aomeisoftware.com
+0.0.0.0 activate.easeus.com
+0.0.0.0 activation.easeus.com
