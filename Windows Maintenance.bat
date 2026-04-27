@@ -160,6 +160,6 @@ powershell -NoProfile -Command "Get-MMAgent"
 
 ipconfig /flushdns
 netsh winsock reset
-netsh int ip reset
+:: netsh int ip reset
 
 pause
