@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 18/03/2026
+@echo Updated on 03/06/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
@@ -22,16 +22,16 @@ netsh winsock reset
 netsh int tcp set global autotuninglevel=normal
 
 @echo off
-echo Cleaning system and user temp files...
-del /s /f /q %TEMP%\*.* >nul 2>&1
-rd /s /q %TEMP% >nul 2>&1
-md %TEMP%
+:: echo Cleaning system and user temp files...
+:: del /s /f /q %TEMP%\*.* >nul 2>&1
+:: rd /s /q %TEMP% >nul 2>&1
+:: md %TEMP%
 
-del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
-rd /s /q C:\Windows\Temp >nul 2>&1
-md C:\Windows\Temp
+:: del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
+:: rd /s /q C:\Windows\Temp >nul 2>&1
+:: md C:\Windows\Temp
 
-echo Temporary files cleared!
+:: echo Temporary files cleared!
 
 sfc /Scannow
 DISM.exe /Online /Cleanup-image /Scanhealth 
@@ -136,16 +136,16 @@ chkdsk Z: /Scan
 chkdsk Z: /Offlinescanandfix
 
 @echo off
-echo Cleaning system and user temp files...
-del /s /f /q %TEMP%\*.* >nul 2>&1
-rd /s /q %TEMP% >nul 2>&1
-md %TEMP%
+:: echo Cleaning system and user temp files...
+:: del /s /f /q %TEMP%\*.* >nul 2>&1
+:: rd /s /q %TEMP% >nul 2>&1
+:: md %TEMP%
 
-del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
-rd /s /q C:\Windows\Temp >nul 2>&1
-md C:\Windows\Temp
+:: del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
+:: rd /s /q C:\Windows\Temp >nul 2>&1
+:: md C:\Windows\Temp
 
-echo Temporary files cleared!
+:: echo Temporary files cleared!
 
 defrag /AllVolumes /BootOptimize /Optimize
 
