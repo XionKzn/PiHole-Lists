@@ -15756,3 +15756,7 @@
 0.0.0.0 cdn.visualbee.net
 0.0.0.0 sentinelone.net
 0.0.0.0 kubernetes.docker.internal
+0.0.0.0	download-avast.com
+0.0.0.0	www.download-avast.com
+0.0.0.0	telecharger-avast.com
+0.0.0.0	www.telecharger-avast.com
