@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 03/06/2026
+@echo Updated on 15/07/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
@@ -9,6 +9,7 @@
 @echo Please send an email with suggestions or complaints to lapped-chomp-timid@duck.com
 @echo For the latest version of this file: https://github.com/XionKzn/PiHole-Lists/Windows Maintenance.bat
 @echo Please run this tool as Administrator.
+:: @echo The last step launches the Microsoft Store.
 @echo Comment out any command you do not want to run.
 @echo off
 TIMEOUT /T 10
@@ -39,7 +40,7 @@ Dism /Online /Cleanup-Image /RestoreHealth
 Dism /Online /Cleanup-Image /StartComponentCleanup
 Dism /Online /Cleanup-Image /StartComponentCleanup /ResetBase
 Dism /Online /Cleanup-Image /RestoreHealth
-winget upgrade --accept-package-agreements --accept-source-agreements --all
+winget upgrade --accept-package-agreements --accept-source-agreements --all --include-unknown --force
 @echo ::  Install MPEG-2 Video Extension
 winget install 9n95q1zzpmh4 --accept-source-agreements --accept-package-agreements
 @echo ::  Install HEVC Video Extensions
@@ -161,5 +162,8 @@ powershell -NoProfile -Command "Get-MMAgent"
 ipconfig /flushdns
 netsh winsock reset
 :: netsh int ip reset
+
+:: @echo :: Opening Microsoft Store CLI (you may install/update apps here if desired, if not; it's safe to close)
+:: store
 
 pause
