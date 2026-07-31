@@ -17,3 +17,12 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
 
 
 https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt
+
+
+https://blocklistproject.github.io/Lists/ransomware.txt
+
+https://blocklistproject.github.io/Lists/redirect.txt
+
+https://blocklistproject.github.io/Lists/tiktok.txt
