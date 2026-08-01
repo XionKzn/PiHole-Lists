@@ -1,28 +1,24 @@
 https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/PiHole/HOSTS
 
-
 https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/My_Blocked_Domains.txt
-
 
 https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/Archive/OpenDNS_Block_list.txt
 
-
 https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/Archive/Quad9.txt
-
 
 https://big.oisd.nl
 
-
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
 
+https://raw.githubusercontent.com/firewalla/fw-public-lists/refs/heads/main/nsfw-ai.txt
 
-https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+https://raw.githubusercontent.com/hillvision/wechat-domain-list/main/wcdl.txt
 
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt
-
 
 https://blocklistproject.github.io/Lists/ransomware.txt
 
 https://blocklistproject.github.io/Lists/redirect.txt
 
 https://blocklistproject.github.io/Lists/tiktok.txt
+
