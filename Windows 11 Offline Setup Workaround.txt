@@ -1,6 +1,6 @@
 When at the screen to connect to the internet to continue setup: "Let's Connect you to a Network"
 Open CMD (Shift + F10).
 Eneter the below and press enter.
->oobe/bypassnro
+>oobe\bypassnro
 
 The PC/Laptop will now reboot and give you the option to continue without internet.
