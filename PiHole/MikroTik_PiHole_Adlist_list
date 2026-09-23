@@ -1,20 +1,10 @@
-https://raw.githubusercontent.com/XionKzn/PiHole-Lists/master/PiHole/HOSTS
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
-https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/My_Blocked_Domains.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt
 
-https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/Archive/OpenDNS_Block_list.txt
+https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/HOSTS
 
-https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/Archive/Quad9.txt
-
-https://big.oisd.nl
-
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
-
-https://raw.githubusercontent.com/firewalla/fw-public-lists/refs/heads/main/nsfw-ai.txt
-
-https://raw.githubusercontent.com/hillvision/wechat-domain-list/main/wcdl.txt
-
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt
+https://github.com/XionKzn/PiHole-Lists/blob/master/PiHole/My_Blocked_Domains.txt
 
 https://blocklistproject.github.io/Lists/ransomware.txt
 
@@ -22,4 +12,18 @@ https://blocklistproject.github.io/Lists/redirect.txt
 
 https://blocklistproject.github.io/Lists/tiktok.txt
 
+https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
+
 https://raw.githubusercontent.com/tigthor/NSA-CIA-Blocklist/refs/heads/main/HOSTS/HOSTS
+
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/refs/heads/master/SmartTV.txt
+
+https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/PiHole/Archive/Quad9.txt
+
+https://big.oisd.nl
+
+https://raw.githubusercontent.com/firewalla/fw-public-lists/refs/heads/main/nsfw-ai.txt
+
+https://raw.githubusercontent.com/hillvision/wechat-domain-list/main/wcdl.txt
+
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini-onlydomains.txt
