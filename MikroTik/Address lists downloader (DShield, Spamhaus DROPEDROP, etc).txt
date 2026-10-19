@@ -62,5 +62,5 @@ $update url=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/tif
 {:delay 2}
 $update url=https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ips/tif.txt description="Threat_Intelligence_Feeds-TIF_Latest" delimiter=("\n")
 {:delay 2}
-$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/MikroTik/AIPDB.txtt description="AIPDB" delimiter=("\n")
+$update url=https://raw.githubusercontent.com/XionKzn/PiHole-Lists/refs/heads/master/MikroTik/AIPDB.txt description="AIPDB" delimiter=("\n")
 #for low memory and MikroTik hAP Lite, only use DShield, CiscoTalos, Spybot Search and Destroy, DShield_DL, Firewalla Active Protect. 
