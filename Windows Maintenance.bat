@@ -9,6 +9,7 @@
 @echo Please send an email with suggestions or complaints to lapped-chomp-timid@duck.com
 @echo For the latest version of this file: https://github.com/XionKzn/PiHole-Lists/Windows Maintenance.bat
 @echo Please run this tool as Administrator.
+@echo Triggers Windows Update checks.
 :: @echo The last step launches the Microsoft Store.
 @echo Comment out any command you do not want to run.
 @echo off
@@ -162,6 +163,17 @@ powershell -NoProfile -Command "Get-MMAgent"
 ipconfig /flushdns
 netsh winsock reset
 :: netsh int ip reset
+
+@echo :: Triggering Windows Update check. 
+UsoClient StartInteractiveScan
+UsoClient StartScan
+@echo off
+TIMEOUT /T 30
+
+@echo :: Install package for more automated Windows Update.
+@echo :: Select Y when prompted or N to skip.
+powershell -NoProfile -Command "Install-Module PSWindowsUpdate -Force; Import-Module PSWindowsUpdate; Get-WindowsUpdate -AcceptAll -Install"
+@echo off
 
 :: @echo :: Opening Microsoft Store CLI (you may install/update apps here if desired, if not; it's safe to close)
 :: store
