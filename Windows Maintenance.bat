@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 15/07/2026
+@echo Updated on 07/11/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
