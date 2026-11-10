@@ -1,16 +1,16 @@
 @echo Compiled by XionKzn.
-@echo Updated on 07/11/2026
+@echo Updated on 10/11/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
-@echo This tool also uses TRIM command for SSD's and cleans Windows temporary files.
+@echo This tool also Optimises drives and cleans Windows temporary files.
 @echo This tool also force updates the Group Policy (effective after restart).
 @echo This tool also shows the status of Windows Memory Compression, and then enables it.
 @echo Please send an email with suggestions or complaints to lapped-chomp-timid@duck.com
 @echo For the latest version of this file: https://github.com/XionKzn/PiHole-Lists/Windows Maintenance.bat
 @echo Please run this tool as Administrator.
 @echo Triggers Windows Update checks.
-:: @echo The last step launches the Microsoft Store.
+@echo Launches Microsoft Store updates.
 @echo Comment out any command you do not want to run.
 @echo off
 TIMEOUT /T 10
@@ -18,78 +18,59 @@ sc config wuauserv start= demand
 sc config LicenseManager start= demand
 sc config wlidsvc start= demand
 sc config bits start= demand
+
 ipconfig /flushdns
-netsh winsock reset
+
 @echo Restoring Windows Auto-Tuning feature to default (normal)
 netsh int tcp set global autotuninglevel=normal
 
 @echo off
-:: echo Cleaning system and user temp files...
-:: del /s /f /q %TEMP%\*.* >nul 2>&1
-:: rd /s /q %TEMP% >nul 2>&1
-:: md %TEMP%
+@echo Cleaning system and user temp files...
+powershell -NoProfile -Command "Get-ChildItem -LiteralPath $env:TEMP -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
+powershell -NoProfile -Command "Get-ChildItem -LiteralPath 'C:\Windows\Temp' -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
+@echo Temporary files cleared!
 
-:: del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
-:: rd /s /q C:\Windows\Temp >nul 2>&1
-:: md C:\Windows\Temp
+chkdsk C: /Scan
 
-:: echo Temporary files cleared!
-
-sfc /Scannow
-DISM.exe /Online /Cleanup-image /Scanhealth 
 Dism /Online /Cleanup-Image /RestoreHealth
 Dism /Online /Cleanup-Image /StartComponentCleanup
-Dism /Online /Cleanup-Image /StartComponentCleanup /ResetBase
-Dism /Online /Cleanup-Image /RestoreHealth
-winget upgrade --accept-package-agreements --accept-source-agreements --all --include-unknown --force
+sfc /Scannow
+
 @echo ::  Install MPEG-2 Video Extension
-winget install 9n95q1zzpmh4 --accept-source-agreements --accept-package-agreements
+winget install 9n95q1zzpmh4 --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install HEVC Video Extensions
-winget install 9nmzlz57r3t7 --accept-source-agreements --accept-package-agreements
+winget install 9nmzlz57r3t7 --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install AV1 Video Extension
-winget install 9mvzqvxjbq9v --accept-source-agreements --accept-package-agreements
+winget install 9mvzqvxjbq9v --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install Web Media Extensions
-winget install 9n5tdp8vcmhs --accept-source-agreements --accept-package-agreements
+winget install 9n5tdp8vcmhs --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install Raw Image Extension
-winget install 9nctdw2w1bh8 --accept-source-agreements --accept-package-agreements
+winget install 9nctdw2w1bh8 --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install HEIF Image Extensions
-winget install 9pmmsr1cgpwg --accept-source-agreements --accept-package-agreements
+winget install 9pmmsr1cgpwg --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install VP9 Video Extensions
-winget install 9n4d0msmp0pt --accept-source-agreements --accept-package-agreements
+winget install 9n4d0msmp0pt --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install Webp Image Extensions
-winget install 9pg2dk419drg --accept-source-agreements --accept-package-agreements
+winget install 9pg2dk419drg --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install OpenCL™, OpenGL®, and Vulkan® Compatibility Pack
-winget install 9nqpsl29bfff --accept-source-agreements --accept-package-agreements
+winget install 9nqpsl29bfff --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install Windows Terminal
-winget install 9n0dx20hk701 --accept-source-agreements --accept-package-agreements
-:: @echo ::  Install Microsoft Defender
-:: winget install 9p6pmztm93lr --accept-source-agreements --accept-package-agreements
-:: @echo ::  Install Microsoft PC Manager
-:: winget install 9pm860492szd --accept-source-agreements --accept-package-agreements
-@echo ::  Install Bitwarden
-winget install 9pjsdv0vpk04 --accept-source-agreements --accept-package-agreements
+winget install 9n0dx20hk701 --exact --source msstore --accept-source-agreements --accept-package-agreements
+@echo :: Installing or upgrading Bitwarden
+winget install --id 9pjsdv0vpk04 --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo ::  Install Mozilla Firefox
-winget install 9nzvdkpmr9rd --accept-source-agreements --accept-package-agreements
-@echo :: Update DirectX via PowerShell
-powershell -NoProfile -Command "winget upgrade --id Microsoft.DirectX"
-ipconfig /flushdns
-netsh winsock reset
-sfc /Scannow
+winget install 9nzvdkpmr9rd --exact --source msstore --accept-source-agreements --accept-package-agreements
+winget upgrade --accept-package-agreements --accept-source-agreements --all --include-unknown --force
+
 gpupdate /Force
-DISM.exe /Online /Cleanup-image /Scanhealth
-Dism /Online /Cleanup-Image /StartComponentCleanup
-Dism /Online /Cleanup-Image /StartComponentCleanup /ResetBase
-Dism /Online /Cleanup-Image /RestoreHealth
-ipconfig /flushdns
-netsh winsock reset
-sfc /Scannow
+
 chkdsk A: /Scan
 chkdsk A: /Offlinescanandfix
 chkdsk B: /Scan
 chkdsk B: /Offlinescanandfix
 chkdsk C: /Scan
 chkdsk C: /Offlinescanandfix
-chkdsk C: /R /F /V
+chkdsk C: /R /V
 chkdsk D: /Scan
 chkdsk D: /Offlinescanandfix
 chkdsk E: /Scan
@@ -138,18 +119,12 @@ chkdsk Z: /Scan
 chkdsk Z: /Offlinescanandfix
 
 @echo off
-:: echo Cleaning system and user temp files...
-:: del /s /f /q %TEMP%\*.* >nul 2>&1
-:: rd /s /q %TEMP% >nul 2>&1
-:: md %TEMP%
+powershell -NoProfile -Command "Get-ChildItem -LiteralPath $env:TEMP -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
+powershell -NoProfile -Command "Get-ChildItem -LiteralPath 'C:\Windows\Temp' -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
 
-:: del /s /f /q C:\Windows\Temp\*.* >nul 2>&1
-:: rd /s /q C:\Windows\Temp >nul 2>&1
-:: md C:\Windows\Temp
+@echo Temporary files cleared!
 
-:: echo Temporary files cleared!
-
-defrag /AllVolumes /BootOptimize /Optimize
+defrag /c /o
 
 @echo :: Checking status of Windows Memory Compression via PowerShell
 powershell -NoProfile -Command "Get-MMAgent"
@@ -160,9 +135,6 @@ powershell -NoProfile -Command "Enable-MMAgent -mc"
 @echo :: Checking status of Windows Memory Compression via PowerShell
 powershell -NoProfile -Command "Get-MMAgent"
 
-ipconfig /flushdns
-netsh winsock reset
-:: netsh int ip reset
 
 @echo :: Triggering Windows Update check. 
 UsoClient StartInteractiveScan
@@ -175,7 +147,12 @@ TIMEOUT /T 30
 powershell -NoProfile -Command "Install-Module PSWindowsUpdate -Force; Import-Module PSWindowsUpdate; Get-WindowsUpdate -AcceptAll -Install"
 @echo off
 
-:: @echo :: Opening Microsoft Store CLI (you may install/update apps here if desired, if not; it's safe to close)
-:: store
+@echo :: Opening Microsoft Store CLI (you may install/update apps here if desired, if not; it's safe to close)
+store updates
 
+ipconfig /flushdns
+netsh winsock reset
+:: netsh int ip reset
+
+@echo You should reboot your computer now.
 pause
