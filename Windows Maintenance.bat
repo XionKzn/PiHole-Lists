@@ -13,7 +13,9 @@
 @echo Launches Microsoft Store updates.
 @echo Comment out any command you do not want to run.
 @echo off
+
 TIMEOUT /T 10
+
 sc config wuauserv start= demand
 sc config LicenseManager start= demand
 sc config wlidsvc start= demand
@@ -121,7 +123,6 @@ chkdsk Z: /Offlinescanandfix
 @echo off
 powershell -NoProfile -Command "Get-ChildItem -LiteralPath $env:TEMP -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
 powershell -NoProfile -Command "Get-ChildItem -LiteralPath 'C:\Windows\Temp' -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
-
 @echo Temporary files cleared!
 
 defrag /c /o
@@ -140,6 +141,7 @@ powershell -NoProfile -Command "Get-MMAgent"
 UsoClient StartInteractiveScan
 UsoClient StartScan
 @echo off
+
 TIMEOUT /T 30
 
 @echo :: Install package for more automated Windows Update.
