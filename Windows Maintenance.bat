@@ -35,8 +35,11 @@ powershell -NoProfile -Command "Get-ChildItem -LiteralPath 'C:\Windows\Temp' -Fo
 chkdsk C: /Scan
 
 Dism /Online /Cleanup-Image /RestoreHealth
+TIMEOUT /T 5
 Dism /Online /Cleanup-Image /StartComponentCleanup
+TIMEOUT /T 5
 sfc /Scannow
+TIMEOUT /T 5
 
 @echo ::  Install MPEG-2 Video Extension
 winget install 9n95q1zzpmh4 --exact --source msstore --accept-source-agreements --accept-package-agreements
