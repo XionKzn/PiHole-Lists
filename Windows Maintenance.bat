@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 10/11/2026
+@echo Updated on 11/11/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
@@ -63,8 +63,8 @@ winget install 9nqpsl29bfff --exact --source msstore --accept-source-agreements 
 winget install 9n0dx20hk701 --exact --source msstore --accept-source-agreements --accept-package-agreements
 @echo :: Installing or upgrading Bitwarden
 winget install --id 9pjsdv0vpk04 --exact --source msstore --accept-source-agreements --accept-package-agreements
-@echo ::  Install Mozilla Firefox
-winget install 9nzvdkpmr9rd --exact --source msstore --accept-source-agreements --accept-package-agreements
+:: @echo ::  Install Mozilla Firefox
+:: winget install 9nzvdkpmr9rd --exact --source msstore --accept-source-agreements --accept-package-agreements
 winget upgrade --accept-package-agreements --accept-source-agreements --all --include-unknown --force
 
 gpupdate /Force
