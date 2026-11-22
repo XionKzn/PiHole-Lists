@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 11/11/2026
+@echo Updated on 22/11/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
@@ -11,6 +11,7 @@
 @echo Please run this tool as Administrator.
 @echo Triggers Windows Update checks.
 @echo Launches Microsoft Store updates.
+@echo Enables Compact OS (Saves OS drive disk space). 
 @echo Comment out any command you do not want to run.
 @echo off
 
@@ -154,6 +155,9 @@ powershell -NoProfile -Command "Install-Module PSWindowsUpdate -Force; Import-Mo
 
 @echo :: Opening Microsoft Store CLI (you may install/update apps here if desired, if not; it's safe to close)
 store updates
+
+@echo :: Enable Compact OS
+compact /compactos:always
 
 ipconfig /flushdns
 netsh winsock reset
