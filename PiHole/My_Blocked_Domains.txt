@@ -74,3 +74,5 @@ answersite.com
 ahdaratlegalservices.com
 alticeusa-helpdesk.com
 proxystream.st
+http-intake.logs.us5.datadoghq.com
+browser-intake-us5-datadoghq.com
