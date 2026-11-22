@@ -14,6 +14,7 @@
 @echo Enables Compact OS (Saves OS drive disk space). 
 @echo Comment out any command you do not want to run.
 @echo off
+compact /compactos:query
 
 TIMEOUT /T 10
 
@@ -157,7 +158,9 @@ powershell -NoProfile -Command "Install-Module PSWindowsUpdate -Force; Import-Mo
 store updates
 
 @echo :: Enable Compact OS
+compact /compactos:query
 compact /compactos:always
+compact /compactos:query
 
 ipconfig /flushdns
 netsh winsock reset
