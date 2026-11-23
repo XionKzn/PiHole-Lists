@@ -1,5 +1,5 @@
 @echo Compiled by XionKzn.
-@echo Updated on 22/11/2026
+@echo Updated on 23/11/2026
 @echo For the latest version, please visit https://github.com/XionKzn/PiHole-Lists
 @echo This tool is meant to help resolve common Windows 10 and Windows 11 system issues and install essential apps from the Microsoft Store as well as update any supported and outdated software.
 @echo This tool also does a CHKDSK of all the disks as well as schedule a full offline scan of C:.
@@ -14,6 +14,7 @@
 @echo Enables Compact OS (Saves OS drive disk space). 
 @echo Comment out any command you do not want to run.
 @echo off
+
 compact /compactos:query
 
 TIMEOUT /T 10
@@ -130,7 +131,6 @@ powershell -NoProfile -Command "Get-ChildItem -LiteralPath $env:TEMP -Force -Err
 powershell -NoProfile -Command "Get-ChildItem -LiteralPath 'C:\Windows\Temp' -Force -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue"
 @echo Temporary files cleared!
 
-defrag /c /o
 
 @echo :: Checking status of Windows Memory Compression via PowerShell
 powershell -NoProfile -Command "Get-MMAgent"
@@ -140,7 +140,6 @@ powershell -NoProfile -Command "Enable-MMAgent -mc"
 
 @echo :: Checking status of Windows Memory Compression via PowerShell
 powershell -NoProfile -Command "Get-MMAgent"
-
 
 @echo :: Triggering Windows Update check. 
 UsoClient StartInteractiveScan
@@ -161,6 +160,8 @@ store updates
 compact /compactos:query
 compact /compactos:always
 compact /compactos:query
+
+defrag /c /o
 
 ipconfig /flushdns
 netsh winsock reset
